@@ -105,7 +105,7 @@ Compiling Cura from Source using documentation
    - Used Powershell to install other System Requirements
    - important to install the correct versions required as described in the documentation, and also make sure everything is available in PATH. Test using PowerShell.
    - Check https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/ to add programs to PATH
-   - Tip: use `pip show <program_name>` to see where pip installs programs so you can install them on the path later. For example, if it’s installed to C:/Users/MAEDEH/AppData/Local/Python/Python38/site-packages, you should be able to find conan.exe in `C:/Users/MAEDEH/AppData/Local/Python/Scripts`, so add `C:/Users/MAEDEH/AppData/Local/Python/Scripts` in the system and user variables for good measure
+   - Tip: use `pip show <program_name>` to see where pip installs programs so you can install them on the path later. For example, if it’s installed to `C:/Users/MAEDEH/AppData/Local/Python/Python38/site-packages`, you should be able to find conan.exe in `C:/Users/MAEDEH/AppData/Local/Python/Scripts`, so add `C:/Users/MAEDEH/AppData/Local/Python/Scripts` in the system and user variables for good measure
    - Tip: use `$env:PATH` in PowerShell to see everything in PATH to make sure programs are added
    -
    - When running `conan profile new default --detect --force` console should give the output, detecting visual studio:
