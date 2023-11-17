@@ -96,4 +96,25 @@
 [Button Plugins]: https://img.shields.io/badge/Plugin_Usage-569A31?style=for-the-badge&logoColor=white&logo=ROS
 [Button Report]: https://img.shields.io/badge/Report_Issues-C9284D?style=for-the-badge&logoColor=white&logo=Cliqz
 
+# Cura-Slicer-Development
+Compiling Cura from Source using documentation 
+
+ ## Setup:
+   - Followed steps 1 and 2 at [https://github.com/Ultimaker/Cura/wiki/Getting-Started](https://github.com/Ultimaker/Cura/wiki/Running-Cura-from-Source)
+   - When installing Visual Studio, select the `Desktop Development with C++` workload to install MSVC
+   - Used Powershell to install other System Requirements
+   - important to install the correct versions required as described in the documentation, and also make sure everything is available in PATH. Test using PowerShell.
+   - Check https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/ to add programs to PATH
+   - Tip: use `pip show <program_name>` to see where pip installs programs so you can install them on the path later. For example, if it’s installed to C:/Users/MAEDEH/AppData/Local/Python/Python38/site-packages, you should be able to find conan.exe in `C:/Users/MAEDEH/AppData/Local/Python/Scripts`, so add `C:/Users/MAEDEH/AppData/Local/Python/Scripts` in the system and user variables for good measure
+   - Tip: use `$env:PATH` in PowerShell to see everything in PATH to make sure programs are added
+   -
+   - When running `conan profile new default --detect --force` console should give the output, detecting visual studio:
+```
+     Found Visual Studio 17
+Profile created with detected settings: C:\Users\Vijay\.conan\profiles\default
+```
+
+## Installation
+ - After cloning Cura in step 2. of the Cura Documentation, Clone Fraktory/Cura Installation
+- Follow step 3 onwards at https://github.com/Ultimaker/Cura/wiki/Running-Cura-from-Source
 
