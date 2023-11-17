@@ -110,11 +110,11 @@ Compiling Cura from Source using documentation
    -
    - When running `conan profile new default --detect --force` console should give the output, detecting visual studio:
 ```
-     Found Visual Studio 17
+Found Visual Studio 17
 Profile created with detected settings: C:\Users\Vijay\.conan\profiles\default
 ```
 
 ## Installation
- - After cloning Cura in step 2. of the Cura Documentation, Clone Fraktory/Cura Installation
+- After cloning Cura in step 2. of the Cura Documentation, Clone Fraktory/Cura Installation
 - Follow step 3 onwards at https://github.com/Ultimaker/Cura/wiki/Running-Cura-from-Source
 
