@@ -99,6 +99,75 @@
 # Cura-Slicer-Development
 Compiling Cura from Source using documentation 
 
+## Installing Requirements
+installing the requriemrts mentioned in https://github.com/Ultimaker/Cura/wiki/Getting-Started
+
+Following programs need to be installed for running from source on Windows:
+
+- Windows 10 or higher
+- Visual Studio with MSVC 2022 or higher
+- Python 3.10.4 or higher
+- venv (Python)
+- sip (Python) 6.5.1
+- CMake 3.23 or higher
+- Ninja 1.10 or higher
+- Conan >=1.60.2 <2.0.0
+
+`IMPORTANT NOTE: Install there using Powershell. Use the native powershell, not x86 version`
+
+## Installation Steps
+
+### Visual Studio with MSVC 2022 or higher
+1. **Download Visual Studio Installer:**
+   - Visit the official Visual Studio download page.
+   - Select your desired edition (Community mostly) and click "Download."
+
+2. **Run the Installer:**
+   - Execute the downloaded installer (usually `vs_installer.exe`).
+
+3. **Choose Workloads:**
+   - Select the `Desktop development with C++` workload, which includes MSVC and related tools.
+   - Optionally, add other workloads or components as needed.
+
+4. **Customize Installation (Optional):**
+   - Explore the "Individual components" tab to customize your installation further.
+
+5. **Modify Installation Location (Optional):**
+   - Change the installation location if desired.
+
+6. **Start Installation:**
+   - Click the "Install" button to begin the installation.
+
+#### Python 3.10.4 or higher
+1. **Download Python Installer:**
+   - Visit the official Python download page at [https://www.python.org/downloads/](https://www.python.org/downloads/).
+   - Scroll down to find the latest Python 3.10.4 (or higher) release for Windows.
+   - Click on the "Download Python 3.10.4" (or the latest version) button to download the installer.
+
+2. **Run the Installer:**
+   - Execute the downloaded installer (usually named `python-3.10.4.exe` or similar).
+   - Ensure that the option "Add Python x.y to PATH" (where "x.y" represents the Python version) is checked during installation.
+
+3. **Customize Installation (Optional):**
+   - Customize the installation by clicking on the "Customize installation" button. You can select additional features or modify the installation directory if needed.
+
+4. **Install Python:**
+   - Click the "Install Now" button to start the installation process.
+   - Python 3.10.4 (or the latest version) will be installed on your system with the selected options.
+
+5. **Verify Python Installation:**
+   - Open a new Windows PowerShell window.
+   - To verify that Python is installed and accessible, run the following command:
+     ```bash
+     python --version
+     ```
+     You should see the installed Python version displayed in the output.
+
+6. **Python Available in PATH:**
+   - Since you selected the option to add Python to the PATH during installation, you can use Python from any Windows PowerShell session without specifying the full path to the Python executable.
+
+
+
  ## Setup:
    - Followed steps 1 and 2 at [https://github.com/Ultimaker/Cura/wiki/Getting-Started](https://github.com/Ultimaker/Cura/wiki/Running-Cura-from-Source)
    - When installing Visual Studio, select the `Desktop Development with C++` workload to install MSVC
