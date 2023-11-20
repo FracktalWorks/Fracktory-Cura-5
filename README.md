@@ -141,7 +141,7 @@ Following programs need to be installed for running from source on Windows:
 6. **Start Installation:**
    - Click the "Install" button to begin the installation.
 
-#### Python 3.10.4 or higher
+### Python 3.10.4 or higher
 1. **Download Python Installer:**
    - Visit the official Python downloasd page at  [https://www.python.org/downloads/](https://www.python.org/downloads/).
    - Scroll down to find the latest Python 3.10.4 (or higher) release for Windows.
@@ -169,18 +169,18 @@ Following programs need to be installed for running from source on Windows:
 6. **Python Available in PATH:**
    - Since you selected the option to add Python to the PATH during installation, you can use Python from any Windows PowerShell session without specifying the full path to the Python executable.
  
-#### venv (Python)
+### venv (Python)
 
 1. Its already packaged inside Python
 
-#### sip (Python) 6.5.1
+### sip (Python) 6.5.1
 1. **Install SIP:**
    - To install SIP, you can use Python's package manager, `pip`. Run the following command to install SIP:
      ```bash
      pip install sip
      ```
 
-#### CMake 3.23 or higher
+### CMake 3.23 or higher
 1. **Open Windows PowerShell:**
    - Open a Windows PowerShell window by searching for "PowerShell" in the Start menu.
 
@@ -223,7 +223,7 @@ Following programs need to be installed for running from source on Windows:
      ```bash
      cmake --version
      ```
-#### Ninja 1.10 or higher
+### Ninja 1.10 or higher
 
 1. **Open Windows PowerShell:**
    - Open a Windows PowerShell window by searching for "PowerShell" in the Start menu.
@@ -252,7 +252,7 @@ Following programs need to be installed for running from source on Windows:
      ```
      You should see the installed Ninja version (1.10 or higher) displayed in the output.
 
-#### Conan >=1.60.2 <2.0.0
+### Conan >=1.60.2 <2.0.0
 1. **Open Windows PowerShell:**
    - Open a Windows PowerShell window by searching for "PowerShell" in the Start menu.
 
