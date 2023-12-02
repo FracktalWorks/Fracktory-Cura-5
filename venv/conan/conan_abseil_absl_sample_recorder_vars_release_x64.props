@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_sample_recorderRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_sample_recorderRootFolder>
+    <Conanabseil_absl_sample_recorderBinaryDirectories>$(Conanabseil_absl_sample_recorderRootFolder)/bin;</Conanabseil_absl_sample_recorderBinaryDirectories>
+    <Conanabseil_absl_sample_recorderCompilerFlags></Conanabseil_absl_sample_recorderCompilerFlags>
+    <Conanabseil_absl_sample_recorderLinkerFlags></Conanabseil_absl_sample_recorderLinkerFlags>
+    <Conanabseil_absl_sample_recorderPreprocessorDefinitions></Conanabseil_absl_sample_recorderPreprocessorDefinitions>
+    <Conanabseil_absl_sample_recorderIncludeDirectories>$(Conanabseil_absl_sample_recorderRootFolder)/include;</Conanabseil_absl_sample_recorderIncludeDirectories>
+    <Conanabseil_absl_sample_recorderResourceDirectories></Conanabseil_absl_sample_recorderResourceDirectories>
+    <Conanabseil_absl_sample_recorderLibraryDirectories>$(Conanabseil_absl_sample_recorderRootFolder)/lib;</Conanabseil_absl_sample_recorderLibraryDirectories>
+    <Conanabseil_absl_sample_recorderLibraries></Conanabseil_absl_sample_recorderLibraries>
+    <Conanabseil_absl_sample_recorderSystemLibs></Conanabseil_absl_sample_recorderSystemLibs>
+  </PropertyGroup>
+</Project>

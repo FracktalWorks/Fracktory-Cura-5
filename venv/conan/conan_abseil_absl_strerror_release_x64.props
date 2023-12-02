@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_abseil_absl_config_props_imported)' != 'True'" Project="conan_abseil_absl_config.props"/>
+    <Import Condition="'$(conan_abseil_absl_core_headers_props_imported)' != 'True'" Project="conan_abseil_absl_core_headers.props"/>
+    <Import Condition="'$(conan_abseil_absl_errno_saver_props_imported)' != 'True'" Project="conan_abseil_absl_errno_saver.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_abseil_absl_strerror_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanabseil_absl_strerrorBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_strerrorIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_strerrorPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_strerrorCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanabseil_absl_strerrorLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanabseil_absl_strerrorLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanabseil_absl_strerrorSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanabseil_absl_strerrorLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_strerrorIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_strerrorIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_strerrorPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_strerrorCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

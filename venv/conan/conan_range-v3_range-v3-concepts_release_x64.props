@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_range-v3_range-v3-meta_props_imported)' != 'True'" Project="conan_range-v3_range-v3-meta.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_range-v3_range-v3-concepts_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanrange-v3_range-v3-conceptsBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanrange-v3_range-v3-conceptsIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanrange-v3_range-v3-conceptsPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanrange-v3_range-v3-conceptsCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanrange-v3_range-v3-conceptsLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanrange-v3_range-v3-conceptsLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanrange-v3_range-v3-conceptsSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanrange-v3_range-v3-conceptsLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanrange-v3_range-v3-conceptsIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanrange-v3_range-v3-conceptsIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanrange-v3_range-v3-conceptsPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanrange-v3_range-v3-conceptsCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

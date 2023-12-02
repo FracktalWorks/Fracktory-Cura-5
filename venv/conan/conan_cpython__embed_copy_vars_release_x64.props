@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conancpython__embed_copyRootFolder>C:/.conan/9f89de/1</Conancpython__embed_copyRootFolder>
+    <Conancpython__embed_copyBinaryDirectories>$(Conancpython__embed_copyRootFolder)/bin;</Conancpython__embed_copyBinaryDirectories>
+    <Conancpython__embed_copyCompilerFlags></Conancpython__embed_copyCompilerFlags>
+    <Conancpython__embed_copyLinkerFlags></Conancpython__embed_copyLinkerFlags>
+    <Conancpython__embed_copyPreprocessorDefinitions></Conancpython__embed_copyPreprocessorDefinitions>
+    <Conancpython__embed_copyIncludeDirectories>$(Conancpython__embed_copyRootFolder)/include;</Conancpython__embed_copyIncludeDirectories>
+    <Conancpython__embed_copyResourceDirectories>$(Conancpython__embed_copyRootFolder)/res;</Conancpython__embed_copyResourceDirectories>
+    <Conancpython__embed_copyLibraryDirectories></Conancpython__embed_copyLibraryDirectories>
+    <Conancpython__embed_copyLibraries></Conancpython__embed_copyLibraries>
+    <Conancpython__embed_copySystemLibs></Conancpython__embed_copySystemLibs>
+  </PropertyGroup>
+</Project>

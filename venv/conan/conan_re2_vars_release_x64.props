@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanre2RootFolder>C:/.conan/db59bb/1</Conanre2RootFolder>
+    <Conanre2BinaryDirectories>$(Conanre2RootFolder)/bin;</Conanre2BinaryDirectories>
+    <Conanre2CompilerFlags></Conanre2CompilerFlags>
+    <Conanre2LinkerFlags></Conanre2LinkerFlags>
+    <Conanre2PreprocessorDefinitions></Conanre2PreprocessorDefinitions>
+    <Conanre2IncludeDirectories>$(Conanre2RootFolder)/include;</Conanre2IncludeDirectories>
+    <Conanre2ResourceDirectories></Conanre2ResourceDirectories>
+    <Conanre2LibraryDirectories>$(Conanre2RootFolder)/lib;</Conanre2LibraryDirectories>
+    <Conanre2Libraries>re2.lib;</Conanre2Libraries>
+    <Conanre2SystemLibs></Conanre2SystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_abseil_absl_bits_props_imported)' != 'True'" Project="conan_abseil_absl_bits.props"/>
+    <Import Condition="'$(conan_abseil_absl_config_props_imported)' != 'True'" Project="conan_abseil_absl_config.props"/>
+    <Import Condition="'$(conan_abseil_absl_endian_props_imported)' != 'True'" Project="conan_abseil_absl_endian.props"/>
+    <Import Condition="'$(conan_abseil_absl_int128_props_imported)' != 'True'" Project="conan_abseil_absl_int128.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_abseil_absl_low_level_hash_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanabseil_absl_low_level_hashBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_low_level_hashIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_low_level_hashPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_low_level_hashCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanabseil_absl_low_level_hashLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanabseil_absl_low_level_hashLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanabseil_absl_low_level_hashSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanabseil_absl_low_level_hashLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_low_level_hashIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_low_level_hashIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_low_level_hashPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_low_level_hashCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

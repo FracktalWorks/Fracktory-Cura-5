@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_distribution_test_utilRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_distribution_test_utilRootFolder>
+    <Conanabseil_absl_random_internal_distribution_test_utilBinaryDirectories>$(Conanabseil_absl_random_internal_distribution_test_utilRootFolder)/bin;</Conanabseil_absl_random_internal_distribution_test_utilBinaryDirectories>
+    <Conanabseil_absl_random_internal_distribution_test_utilCompilerFlags></Conanabseil_absl_random_internal_distribution_test_utilCompilerFlags>
+    <Conanabseil_absl_random_internal_distribution_test_utilLinkerFlags></Conanabseil_absl_random_internal_distribution_test_utilLinkerFlags>
+    <Conanabseil_absl_random_internal_distribution_test_utilPreprocessorDefinitions></Conanabseil_absl_random_internal_distribution_test_utilPreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_distribution_test_utilIncludeDirectories>$(Conanabseil_absl_random_internal_distribution_test_utilRootFolder)/include;</Conanabseil_absl_random_internal_distribution_test_utilIncludeDirectories>
+    <Conanabseil_absl_random_internal_distribution_test_utilResourceDirectories></Conanabseil_absl_random_internal_distribution_test_utilResourceDirectories>
+    <Conanabseil_absl_random_internal_distribution_test_utilLibraryDirectories>$(Conanabseil_absl_random_internal_distribution_test_utilRootFolder)/lib;</Conanabseil_absl_random_internal_distribution_test_utilLibraryDirectories>
+    <Conanabseil_absl_random_internal_distribution_test_utilLibraries>absl_random_internal_distribution_test_util.lib;</Conanabseil_absl_random_internal_distribution_test_utilLibraries>
+    <Conanabseil_absl_random_internal_distribution_test_utilSystemLibs></Conanabseil_absl_random_internal_distribution_test_utilSystemLibs>
+  </PropertyGroup>
+</Project>

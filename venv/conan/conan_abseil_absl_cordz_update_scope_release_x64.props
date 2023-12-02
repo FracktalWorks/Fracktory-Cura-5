@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_abseil_absl_config_props_imported)' != 'True'" Project="conan_abseil_absl_config.props"/>
+    <Import Condition="'$(conan_abseil_absl_cord_internal_props_imported)' != 'True'" Project="conan_abseil_absl_cord_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_cordz_info_props_imported)' != 'True'" Project="conan_abseil_absl_cordz_info.props"/>
+    <Import Condition="'$(conan_abseil_absl_cordz_update_tracker_props_imported)' != 'True'" Project="conan_abseil_absl_cordz_update_tracker.props"/>
+    <Import Condition="'$(conan_abseil_absl_core_headers_props_imported)' != 'True'" Project="conan_abseil_absl_core_headers.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_abseil_absl_cordz_update_scope_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanabseil_absl_cordz_update_scopeBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_cordz_update_scopeIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_cordz_update_scopePreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_cordz_update_scopeCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanabseil_absl_cordz_update_scopeLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanabseil_absl_cordz_update_scopeLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanabseil_absl_cordz_update_scopeSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanabseil_absl_cordz_update_scopeLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_cordz_update_scopeIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_cordz_update_scopeIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_cordz_update_scopePreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_cordz_update_scopeCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

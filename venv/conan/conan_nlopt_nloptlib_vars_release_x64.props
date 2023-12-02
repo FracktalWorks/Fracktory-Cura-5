@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conannlopt_nloptlibRootFolder>C:/.conan/5f4b5b/1</Conannlopt_nloptlibRootFolder>
+    <Conannlopt_nloptlibBinaryDirectories>$(Conannlopt_nloptlibRootFolder)/bin;</Conannlopt_nloptlibBinaryDirectories>
+    <Conannlopt_nloptlibCompilerFlags></Conannlopt_nloptlibCompilerFlags>
+    <Conannlopt_nloptlibLinkerFlags></Conannlopt_nloptlibLinkerFlags>
+    <Conannlopt_nloptlibPreprocessorDefinitions>NLOPT_DLL;</Conannlopt_nloptlibPreprocessorDefinitions>
+    <Conannlopt_nloptlibIncludeDirectories>$(Conannlopt_nloptlibRootFolder)/include;</Conannlopt_nloptlibIncludeDirectories>
+    <Conannlopt_nloptlibResourceDirectories>$(Conannlopt_nloptlibRootFolder)/res;</Conannlopt_nloptlibResourceDirectories>
+    <Conannlopt_nloptlibLibraryDirectories>$(Conannlopt_nloptlibRootFolder)/lib;</Conannlopt_nloptlibLibraryDirectories>
+    <Conannlopt_nloptlibLibraries>nlopt.lib;</Conannlopt_nloptlibLibraries>
+    <Conannlopt_nloptlibSystemLibs></Conannlopt_nloptlibSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_cordz_sample_tokenRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_cordz_sample_tokenRootFolder>
+    <Conanabseil_absl_cordz_sample_tokenBinaryDirectories>$(Conanabseil_absl_cordz_sample_tokenRootFolder)/bin;</Conanabseil_absl_cordz_sample_tokenBinaryDirectories>
+    <Conanabseil_absl_cordz_sample_tokenCompilerFlags></Conanabseil_absl_cordz_sample_tokenCompilerFlags>
+    <Conanabseil_absl_cordz_sample_tokenLinkerFlags></Conanabseil_absl_cordz_sample_tokenLinkerFlags>
+    <Conanabseil_absl_cordz_sample_tokenPreprocessorDefinitions></Conanabseil_absl_cordz_sample_tokenPreprocessorDefinitions>
+    <Conanabseil_absl_cordz_sample_tokenIncludeDirectories>$(Conanabseil_absl_cordz_sample_tokenRootFolder)/include;</Conanabseil_absl_cordz_sample_tokenIncludeDirectories>
+    <Conanabseil_absl_cordz_sample_tokenResourceDirectories></Conanabseil_absl_cordz_sample_tokenResourceDirectories>
+    <Conanabseil_absl_cordz_sample_tokenLibraryDirectories>$(Conanabseil_absl_cordz_sample_tokenRootFolder)/lib;</Conanabseil_absl_cordz_sample_tokenLibraryDirectories>
+    <Conanabseil_absl_cordz_sample_tokenLibraries>absl_cordz_sample_token.lib;</Conanabseil_absl_cordz_sample_tokenLibraries>
+    <Conanabseil_absl_cordz_sample_tokenSystemLibs></Conanabseil_absl_cordz_sample_tokenSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_openssl_props_imported)' != 'True'" Project="conan_openssl.props"/>
+    <Import Condition="'$(conan_expat_props_imported)' != 'True'" Project="conan_expat.props"/>
+    <Import Condition="'$(conan_mpdecimal_props_imported)' != 'True'" Project="conan_mpdecimal.props"/>
+    <Import Condition="'$(conan_libffi_props_imported)' != 'True'" Project="conan_libffi.props"/>
+    <Import Condition="'$(conan_bzip2_props_imported)' != 'True'" Project="conan_bzip2.props"/>
+    <Import Condition="'$(conan_sqlite3_props_imported)' != 'True'" Project="conan_sqlite3.props"/>
+    <Import Condition="'$(conan_xz_utils_props_imported)' != 'True'" Project="conan_xz_utils.props"/>
+    <Import Condition="'$(conan_tk_props_imported)' != 'True'" Project="conan_tk.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_cpython__hidden_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conancpython__hiddenBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conancpython__hiddenIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conancpython__hiddenPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conancpython__hiddenCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conancpython__hiddenLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conancpython__hiddenLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conancpython__hiddenSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conancpython__hiddenLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conancpython__hiddenIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conancpython__hiddenIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conancpython__hiddenPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conancpython__hiddenCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

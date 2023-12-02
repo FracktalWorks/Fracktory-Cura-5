@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_abseil_absl_graphcycles_internal_props_imported)' != 'True'" Project="conan_abseil_absl_graphcycles_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_kernel_timeout_internal_props_imported)' != 'True'" Project="conan_abseil_absl_kernel_timeout_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_atomic_hook_props_imported)' != 'True'" Project="conan_abseil_absl_atomic_hook.props"/>
+    <Import Condition="'$(conan_abseil_absl_base_props_imported)' != 'True'" Project="conan_abseil_absl_base.props"/>
+    <Import Condition="'$(conan_abseil_absl_base_internal_props_imported)' != 'True'" Project="conan_abseil_absl_base_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_config_props_imported)' != 'True'" Project="conan_abseil_absl_config.props"/>
+    <Import Condition="'$(conan_abseil_absl_core_headers_props_imported)' != 'True'" Project="conan_abseil_absl_core_headers.props"/>
+    <Import Condition="'$(conan_abseil_absl_dynamic_annotations_props_imported)' != 'True'" Project="conan_abseil_absl_dynamic_annotations.props"/>
+    <Import Condition="'$(conan_abseil_absl_malloc_internal_props_imported)' != 'True'" Project="conan_abseil_absl_malloc_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_raw_logging_internal_props_imported)' != 'True'" Project="conan_abseil_absl_raw_logging_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_stacktrace_props_imported)' != 'True'" Project="conan_abseil_absl_stacktrace.props"/>
+    <Import Condition="'$(conan_abseil_absl_symbolize_props_imported)' != 'True'" Project="conan_abseil_absl_symbolize.props"/>
+    <Import Condition="'$(conan_abseil_absl_time_props_imported)' != 'True'" Project="conan_abseil_absl_time.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_abseil_absl_synchronization_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanabseil_absl_synchronizationBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_synchronizationIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_synchronizationPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_synchronizationCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanabseil_absl_synchronizationLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanabseil_absl_synchronizationLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanabseil_absl_synchronizationSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanabseil_absl_synchronizationLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_synchronizationIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_synchronizationIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_synchronizationPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_synchronizationCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

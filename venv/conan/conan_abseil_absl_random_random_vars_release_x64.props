@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_randomRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_randomRootFolder>
+    <Conanabseil_absl_random_randomBinaryDirectories>$(Conanabseil_absl_random_randomRootFolder)/bin;</Conanabseil_absl_random_randomBinaryDirectories>
+    <Conanabseil_absl_random_randomCompilerFlags></Conanabseil_absl_random_randomCompilerFlags>
+    <Conanabseil_absl_random_randomLinkerFlags></Conanabseil_absl_random_randomLinkerFlags>
+    <Conanabseil_absl_random_randomPreprocessorDefinitions></Conanabseil_absl_random_randomPreprocessorDefinitions>
+    <Conanabseil_absl_random_randomIncludeDirectories>$(Conanabseil_absl_random_randomRootFolder)/include;</Conanabseil_absl_random_randomIncludeDirectories>
+    <Conanabseil_absl_random_randomResourceDirectories></Conanabseil_absl_random_randomResourceDirectories>
+    <Conanabseil_absl_random_randomLibraryDirectories>$(Conanabseil_absl_random_randomRootFolder)/lib;</Conanabseil_absl_random_randomLibraryDirectories>
+    <Conanabseil_absl_random_randomLibraries></Conanabseil_absl_random_randomLibraries>
+    <Conanabseil_absl_random_randomSystemLibs></Conanabseil_absl_random_randomSystemLibs>
+  </PropertyGroup>
+</Project>

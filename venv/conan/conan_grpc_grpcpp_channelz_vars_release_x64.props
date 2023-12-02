@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangrpc_grpcpp_channelzRootFolder>C:/.conan/1ae3ce/1</Conangrpc_grpcpp_channelzRootFolder>
+    <Conangrpc_grpcpp_channelzBinaryDirectories>$(Conangrpc_grpcpp_channelzRootFolder)/bin;</Conangrpc_grpcpp_channelzBinaryDirectories>
+    <Conangrpc_grpcpp_channelzCompilerFlags></Conangrpc_grpcpp_channelzCompilerFlags>
+    <Conangrpc_grpcpp_channelzLinkerFlags></Conangrpc_grpcpp_channelzLinkerFlags>
+    <Conangrpc_grpcpp_channelzPreprocessorDefinitions></Conangrpc_grpcpp_channelzPreprocessorDefinitions>
+    <Conangrpc_grpcpp_channelzIncludeDirectories>$(Conangrpc_grpcpp_channelzRootFolder)/include;</Conangrpc_grpcpp_channelzIncludeDirectories>
+    <Conangrpc_grpcpp_channelzResourceDirectories></Conangrpc_grpcpp_channelzResourceDirectories>
+    <Conangrpc_grpcpp_channelzLibraryDirectories>$(Conangrpc_grpcpp_channelzRootFolder)/lib;</Conangrpc_grpcpp_channelzLibraryDirectories>
+    <Conangrpc_grpcpp_channelzLibraries>grpcpp_channelz.lib;</Conangrpc_grpcpp_channelzLibraries>
+    <Conangrpc_grpcpp_channelzSystemLibs>crypt32.lib;ws2_32.lib;wsock32.lib;</Conangrpc_grpcpp_channelzSystemLibs>
+  </PropertyGroup>
+</Project>

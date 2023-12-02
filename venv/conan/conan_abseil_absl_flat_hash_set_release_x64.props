@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_abseil_absl_container_memory_props_imported)' != 'True'" Project="conan_abseil_absl_container_memory.props"/>
+    <Import Condition="'$(conan_abseil_absl_hash_function_defaults_props_imported)' != 'True'" Project="conan_abseil_absl_hash_function_defaults.props"/>
+    <Import Condition="'$(conan_abseil_absl_raw_hash_set_props_imported)' != 'True'" Project="conan_abseil_absl_raw_hash_set.props"/>
+    <Import Condition="'$(conan_abseil_absl_algorithm_container_props_imported)' != 'True'" Project="conan_abseil_absl_algorithm_container.props"/>
+    <Import Condition="'$(conan_abseil_absl_core_headers_props_imported)' != 'True'" Project="conan_abseil_absl_core_headers.props"/>
+    <Import Condition="'$(conan_abseil_absl_memory_props_imported)' != 'True'" Project="conan_abseil_absl_memory.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_abseil_absl_flat_hash_set_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanabseil_absl_flat_hash_setBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_flat_hash_setIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_flat_hash_setPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_flat_hash_setCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanabseil_absl_flat_hash_setLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanabseil_absl_flat_hash_setLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanabseil_absl_flat_hash_setSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanabseil_absl_flat_hash_setLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_flat_hash_setIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_flat_hash_setIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_flat_hash_setPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_flat_hash_setCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_seed_materialRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_seed_materialRootFolder>
+    <Conanabseil_absl_random_internal_seed_materialBinaryDirectories>$(Conanabseil_absl_random_internal_seed_materialRootFolder)/bin;</Conanabseil_absl_random_internal_seed_materialBinaryDirectories>
+    <Conanabseil_absl_random_internal_seed_materialCompilerFlags></Conanabseil_absl_random_internal_seed_materialCompilerFlags>
+    <Conanabseil_absl_random_internal_seed_materialLinkerFlags></Conanabseil_absl_random_internal_seed_materialLinkerFlags>
+    <Conanabseil_absl_random_internal_seed_materialPreprocessorDefinitions></Conanabseil_absl_random_internal_seed_materialPreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_seed_materialIncludeDirectories>$(Conanabseil_absl_random_internal_seed_materialRootFolder)/include;</Conanabseil_absl_random_internal_seed_materialIncludeDirectories>
+    <Conanabseil_absl_random_internal_seed_materialResourceDirectories></Conanabseil_absl_random_internal_seed_materialResourceDirectories>
+    <Conanabseil_absl_random_internal_seed_materialLibraryDirectories>$(Conanabseil_absl_random_internal_seed_materialRootFolder)/lib;</Conanabseil_absl_random_internal_seed_materialLibraryDirectories>
+    <Conanabseil_absl_random_internal_seed_materialLibraries>absl_random_internal_seed_material.lib;</Conanabseil_absl_random_internal_seed_materialLibraries>
+    <Conanabseil_absl_random_internal_seed_materialSystemLibs>bcrypt.lib;</Conanabseil_absl_random_internal_seed_materialSystemLibs>
+  </PropertyGroup>
+</Project>

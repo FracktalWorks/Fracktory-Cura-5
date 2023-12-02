@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangrpc_grpc_execsRootFolder>C:/.conan/1ae3ce/1</Conangrpc_grpc_execsRootFolder>
+    <Conangrpc_grpc_execsBinaryDirectories>$(Conangrpc_grpc_execsRootFolder)/bin;</Conangrpc_grpc_execsBinaryDirectories>
+    <Conangrpc_grpc_execsCompilerFlags></Conangrpc_grpc_execsCompilerFlags>
+    <Conangrpc_grpc_execsLinkerFlags></Conangrpc_grpc_execsLinkerFlags>
+    <Conangrpc_grpc_execsPreprocessorDefinitions></Conangrpc_grpc_execsPreprocessorDefinitions>
+    <Conangrpc_grpc_execsIncludeDirectories>$(Conangrpc_grpc_execsRootFolder)/include;</Conangrpc_grpc_execsIncludeDirectories>
+    <Conangrpc_grpc_execsResourceDirectories></Conangrpc_grpc_execsResourceDirectories>
+    <Conangrpc_grpc_execsLibraryDirectories>$(Conangrpc_grpc_execsRootFolder)/lib;</Conangrpc_grpc_execsLibraryDirectories>
+    <Conangrpc_grpc_execsLibraries></Conangrpc_grpc_execsLibraries>
+    <Conangrpc_grpc_execsSystemLibs></Conangrpc_grpc_execsSystemLibs>
+  </PropertyGroup>
+</Project>

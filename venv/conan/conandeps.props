@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_boost_props_imported)' != 'True'" Project="conan_boost.props"/>
+		<Import Condition="'$(conan_curaengine_grpc_definitions_props_imported)' != 'True'" Project="conan_curaengine_grpc_definitions.props"/>
+		<Import Condition="'$(conan_zlib_props_imported)' != 'True'" Project="conan_zlib.props"/>
+		<Import Condition="'$(conan_pyarcus_props_imported)' != 'True'" Project="conan_pyarcus.props"/>
+		<Import Condition="'$(conan_curaengine_props_imported)' != 'True'" Project="conan_curaengine.props"/>
+		<Import Condition="'$(conan_pysavitar_props_imported)' != 'True'" Project="conan_pysavitar.props"/>
+		<Import Condition="'$(conan_pynest2d_props_imported)' != 'True'" Project="conan_pynest2d.props"/>
+		<Import Condition="'$(conan_curaengine_plugin_gradual_flow_props_imported)' != 'True'" Project="conan_curaengine_plugin_gradual_flow.props"/>
+		<Import Condition="'$(conan_uranium_props_imported)' != 'True'" Project="conan_uranium.props"/>
+		<Import Condition="'$(conan_cura_binary_data_props_imported)' != 'True'" Project="conan_cura_binary_data.props"/>
+		<Import Condition="'$(conan_cpython_props_imported)' != 'True'" Project="conan_cpython.props"/>
+		<Import Condition="'$(conan_fdm_materials_props_imported)' != 'True'" Project="conan_fdm_materials.props"/>
+	</ImportGroup>
+</Project>

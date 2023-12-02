@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_atomic_hookRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_atomic_hookRootFolder>
+    <Conanabseil_absl_atomic_hookBinaryDirectories>$(Conanabseil_absl_atomic_hookRootFolder)/bin;</Conanabseil_absl_atomic_hookBinaryDirectories>
+    <Conanabseil_absl_atomic_hookCompilerFlags></Conanabseil_absl_atomic_hookCompilerFlags>
+    <Conanabseil_absl_atomic_hookLinkerFlags></Conanabseil_absl_atomic_hookLinkerFlags>
+    <Conanabseil_absl_atomic_hookPreprocessorDefinitions></Conanabseil_absl_atomic_hookPreprocessorDefinitions>
+    <Conanabseil_absl_atomic_hookIncludeDirectories>$(Conanabseil_absl_atomic_hookRootFolder)/include;</Conanabseil_absl_atomic_hookIncludeDirectories>
+    <Conanabseil_absl_atomic_hookResourceDirectories></Conanabseil_absl_atomic_hookResourceDirectories>
+    <Conanabseil_absl_atomic_hookLibraryDirectories>$(Conanabseil_absl_atomic_hookRootFolder)/lib;</Conanabseil_absl_atomic_hookLibraryDirectories>
+    <Conanabseil_absl_atomic_hookLibraries></Conanabseil_absl_atomic_hookLibraries>
+    <Conanabseil_absl_atomic_hookSystemLibs></Conanabseil_absl_atomic_hookSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_cpython_python_props_imported)' != 'True'" Project="conan_cpython_python.props"/>
+		<Import Condition="'$(conan_cpython__python_copy_props_imported)' != 'True'" Project="conan_cpython__python_copy.props"/>
+		<Import Condition="'$(conan_cpython_embed_props_imported)' != 'True'" Project="conan_cpython_embed.props"/>
+		<Import Condition="'$(conan_cpython__embed_copy_props_imported)' != 'True'" Project="conan_cpython__embed_copy.props"/>
+		<Import Condition="'$(conan_cpython__hidden_props_imported)' != 'True'" Project="conan_cpython__hidden.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_cpython_props_imported>True</conan_cpython_props_imported>
+	</PropertyGroup>
+</Project>

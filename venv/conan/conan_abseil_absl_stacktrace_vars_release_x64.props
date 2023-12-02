@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_stacktraceRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_stacktraceRootFolder>
+    <Conanabseil_absl_stacktraceBinaryDirectories>$(Conanabseil_absl_stacktraceRootFolder)/bin;</Conanabseil_absl_stacktraceBinaryDirectories>
+    <Conanabseil_absl_stacktraceCompilerFlags></Conanabseil_absl_stacktraceCompilerFlags>
+    <Conanabseil_absl_stacktraceLinkerFlags></Conanabseil_absl_stacktraceLinkerFlags>
+    <Conanabseil_absl_stacktracePreprocessorDefinitions></Conanabseil_absl_stacktracePreprocessorDefinitions>
+    <Conanabseil_absl_stacktraceIncludeDirectories>$(Conanabseil_absl_stacktraceRootFolder)/include;</Conanabseil_absl_stacktraceIncludeDirectories>
+    <Conanabseil_absl_stacktraceResourceDirectories></Conanabseil_absl_stacktraceResourceDirectories>
+    <Conanabseil_absl_stacktraceLibraryDirectories>$(Conanabseil_absl_stacktraceRootFolder)/lib;</Conanabseil_absl_stacktraceLibraryDirectories>
+    <Conanabseil_absl_stacktraceLibraries>absl_stacktrace.lib;</Conanabseil_absl_stacktraceLibraries>
+    <Conanabseil_absl_stacktraceSystemLibs></Conanabseil_absl_stacktraceSystemLibs>
+  </PropertyGroup>
+</Project>

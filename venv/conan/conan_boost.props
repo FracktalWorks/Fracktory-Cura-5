@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_boost_headers_props_imported)' != 'True'" Project="conan_boost_headers.props"/>
+		<Import Condition="'$(conan_boost__boost_cmake_props_imported)' != 'True'" Project="conan_boost__boost_cmake.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_boost_props_imported>True</conan_boost_props_imported>
+	</PropertyGroup>
+</Project>

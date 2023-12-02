@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangrpc_address_sortingRootFolder>C:/.conan/1ae3ce/1</Conangrpc_address_sortingRootFolder>
+    <Conangrpc_address_sortingBinaryDirectories>$(Conangrpc_address_sortingRootFolder)/bin;</Conangrpc_address_sortingBinaryDirectories>
+    <Conangrpc_address_sortingCompilerFlags></Conangrpc_address_sortingCompilerFlags>
+    <Conangrpc_address_sortingLinkerFlags></Conangrpc_address_sortingLinkerFlags>
+    <Conangrpc_address_sortingPreprocessorDefinitions></Conangrpc_address_sortingPreprocessorDefinitions>
+    <Conangrpc_address_sortingIncludeDirectories>$(Conangrpc_address_sortingRootFolder)/include;</Conangrpc_address_sortingIncludeDirectories>
+    <Conangrpc_address_sortingResourceDirectories></Conangrpc_address_sortingResourceDirectories>
+    <Conangrpc_address_sortingLibraryDirectories>$(Conangrpc_address_sortingRootFolder)/lib;</Conangrpc_address_sortingLibraryDirectories>
+    <Conangrpc_address_sortingLibraries>address_sorting.lib;</Conangrpc_address_sortingLibraries>
+    <Conangrpc_address_sortingSystemLibs>crypt32.lib;ws2_32.lib;wsock32.lib;</Conangrpc_address_sortingSystemLibs>
+  </PropertyGroup>
+</Project>

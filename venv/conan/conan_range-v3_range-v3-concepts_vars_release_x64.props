@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanrange-v3_range-v3-conceptsRootFolder>C:/.conan/521d09/1</Conanrange-v3_range-v3-conceptsRootFolder>
+    <Conanrange-v3_range-v3-conceptsBinaryDirectories>$(Conanrange-v3_range-v3-conceptsRootFolder)/bin;</Conanrange-v3_range-v3-conceptsBinaryDirectories>
+    <Conanrange-v3_range-v3-conceptsCompilerFlags></Conanrange-v3_range-v3-conceptsCompilerFlags>
+    <Conanrange-v3_range-v3-conceptsLinkerFlags></Conanrange-v3_range-v3-conceptsLinkerFlags>
+    <Conanrange-v3_range-v3-conceptsPreprocessorDefinitions></Conanrange-v3_range-v3-conceptsPreprocessorDefinitions>
+    <Conanrange-v3_range-v3-conceptsIncludeDirectories>$(Conanrange-v3_range-v3-conceptsRootFolder)/include;</Conanrange-v3_range-v3-conceptsIncludeDirectories>
+    <Conanrange-v3_range-v3-conceptsResourceDirectories></Conanrange-v3_range-v3-conceptsResourceDirectories>
+    <Conanrange-v3_range-v3-conceptsLibraryDirectories>$(Conanrange-v3_range-v3-conceptsRootFolder)/lib;</Conanrange-v3_range-v3-conceptsLibraryDirectories>
+    <Conanrange-v3_range-v3-conceptsLibraries></Conanrange-v3_range-v3-conceptsLibraries>
+    <Conanrange-v3_range-v3-conceptsSystemLibs></Conanrange-v3_range-v3-conceptsSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_endianRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_endianRootFolder>
+    <Conanabseil_absl_endianBinaryDirectories>$(Conanabseil_absl_endianRootFolder)/bin;</Conanabseil_absl_endianBinaryDirectories>
+    <Conanabseil_absl_endianCompilerFlags></Conanabseil_absl_endianCompilerFlags>
+    <Conanabseil_absl_endianLinkerFlags></Conanabseil_absl_endianLinkerFlags>
+    <Conanabseil_absl_endianPreprocessorDefinitions></Conanabseil_absl_endianPreprocessorDefinitions>
+    <Conanabseil_absl_endianIncludeDirectories>$(Conanabseil_absl_endianRootFolder)/include;</Conanabseil_absl_endianIncludeDirectories>
+    <Conanabseil_absl_endianResourceDirectories></Conanabseil_absl_endianResourceDirectories>
+    <Conanabseil_absl_endianLibraryDirectories>$(Conanabseil_absl_endianRootFolder)/lib;</Conanabseil_absl_endianLibraryDirectories>
+    <Conanabseil_absl_endianLibraries></Conanabseil_absl_endianLibraries>
+    <Conanabseil_absl_endianSystemLibs></Conanabseil_absl_endianSystemLibs>
+  </PropertyGroup>
+</Project>

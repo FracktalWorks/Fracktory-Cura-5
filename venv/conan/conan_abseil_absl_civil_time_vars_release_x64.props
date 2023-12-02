@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_civil_timeRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_civil_timeRootFolder>
+    <Conanabseil_absl_civil_timeBinaryDirectories>$(Conanabseil_absl_civil_timeRootFolder)/bin;</Conanabseil_absl_civil_timeBinaryDirectories>
+    <Conanabseil_absl_civil_timeCompilerFlags></Conanabseil_absl_civil_timeCompilerFlags>
+    <Conanabseil_absl_civil_timeLinkerFlags></Conanabseil_absl_civil_timeLinkerFlags>
+    <Conanabseil_absl_civil_timePreprocessorDefinitions></Conanabseil_absl_civil_timePreprocessorDefinitions>
+    <Conanabseil_absl_civil_timeIncludeDirectories>$(Conanabseil_absl_civil_timeRootFolder)/include;</Conanabseil_absl_civil_timeIncludeDirectories>
+    <Conanabseil_absl_civil_timeResourceDirectories></Conanabseil_absl_civil_timeResourceDirectories>
+    <Conanabseil_absl_civil_timeLibraryDirectories>$(Conanabseil_absl_civil_timeRootFolder)/lib;</Conanabseil_absl_civil_timeLibraryDirectories>
+    <Conanabseil_absl_civil_timeLibraries>absl_civil_time.lib;</Conanabseil_absl_civil_timeLibraries>
+    <Conanabseil_absl_civil_timeSystemLibs></Conanabseil_absl_civil_timeSystemLibs>
+  </PropertyGroup>
+</Project>

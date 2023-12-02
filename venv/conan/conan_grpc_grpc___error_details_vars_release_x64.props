@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangrpc_grpc___error_detailsRootFolder>C:/.conan/1ae3ce/1</Conangrpc_grpc___error_detailsRootFolder>
+    <Conangrpc_grpc___error_detailsBinaryDirectories>$(Conangrpc_grpc___error_detailsRootFolder)/bin;</Conangrpc_grpc___error_detailsBinaryDirectories>
+    <Conangrpc_grpc___error_detailsCompilerFlags></Conangrpc_grpc___error_detailsCompilerFlags>
+    <Conangrpc_grpc___error_detailsLinkerFlags></Conangrpc_grpc___error_detailsLinkerFlags>
+    <Conangrpc_grpc___error_detailsPreprocessorDefinitions></Conangrpc_grpc___error_detailsPreprocessorDefinitions>
+    <Conangrpc_grpc___error_detailsIncludeDirectories>$(Conangrpc_grpc___error_detailsRootFolder)/include;</Conangrpc_grpc___error_detailsIncludeDirectories>
+    <Conangrpc_grpc___error_detailsResourceDirectories></Conangrpc_grpc___error_detailsResourceDirectories>
+    <Conangrpc_grpc___error_detailsLibraryDirectories>$(Conangrpc_grpc___error_detailsRootFolder)/lib;</Conangrpc_grpc___error_detailsLibraryDirectories>
+    <Conangrpc_grpc___error_detailsLibraries>grpc++_error_details.lib;</Conangrpc_grpc___error_detailsLibraries>
+    <Conangrpc_grpc___error_detailsSystemLibs>crypt32.lib;ws2_32.lib;wsock32.lib;</Conangrpc_grpc___error_detailsSystemLibs>
+  </PropertyGroup>
+</Project>

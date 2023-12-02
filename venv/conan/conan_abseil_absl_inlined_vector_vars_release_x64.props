@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_inlined_vectorRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_inlined_vectorRootFolder>
+    <Conanabseil_absl_inlined_vectorBinaryDirectories>$(Conanabseil_absl_inlined_vectorRootFolder)/bin;</Conanabseil_absl_inlined_vectorBinaryDirectories>
+    <Conanabseil_absl_inlined_vectorCompilerFlags></Conanabseil_absl_inlined_vectorCompilerFlags>
+    <Conanabseil_absl_inlined_vectorLinkerFlags></Conanabseil_absl_inlined_vectorLinkerFlags>
+    <Conanabseil_absl_inlined_vectorPreprocessorDefinitions></Conanabseil_absl_inlined_vectorPreprocessorDefinitions>
+    <Conanabseil_absl_inlined_vectorIncludeDirectories>$(Conanabseil_absl_inlined_vectorRootFolder)/include;</Conanabseil_absl_inlined_vectorIncludeDirectories>
+    <Conanabseil_absl_inlined_vectorResourceDirectories></Conanabseil_absl_inlined_vectorResourceDirectories>
+    <Conanabseil_absl_inlined_vectorLibraryDirectories>$(Conanabseil_absl_inlined_vectorRootFolder)/lib;</Conanabseil_absl_inlined_vectorLibraryDirectories>
+    <Conanabseil_absl_inlined_vectorLibraries></Conanabseil_absl_inlined_vectorLibraries>
+    <Conanabseil_absl_inlined_vectorSystemLibs></Conanabseil_absl_inlined_vectorSystemLibs>
+  </PropertyGroup>
+</Project>

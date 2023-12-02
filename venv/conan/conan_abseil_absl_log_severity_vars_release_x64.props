@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_log_severityRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_log_severityRootFolder>
+    <Conanabseil_absl_log_severityBinaryDirectories>$(Conanabseil_absl_log_severityRootFolder)/bin;</Conanabseil_absl_log_severityBinaryDirectories>
+    <Conanabseil_absl_log_severityCompilerFlags></Conanabseil_absl_log_severityCompilerFlags>
+    <Conanabseil_absl_log_severityLinkerFlags></Conanabseil_absl_log_severityLinkerFlags>
+    <Conanabseil_absl_log_severityPreprocessorDefinitions></Conanabseil_absl_log_severityPreprocessorDefinitions>
+    <Conanabseil_absl_log_severityIncludeDirectories>$(Conanabseil_absl_log_severityRootFolder)/include;</Conanabseil_absl_log_severityIncludeDirectories>
+    <Conanabseil_absl_log_severityResourceDirectories></Conanabseil_absl_log_severityResourceDirectories>
+    <Conanabseil_absl_log_severityLibraryDirectories>$(Conanabseil_absl_log_severityRootFolder)/lib;</Conanabseil_absl_log_severityLibraryDirectories>
+    <Conanabseil_absl_log_severityLibraries>absl_log_severity.lib;</Conanabseil_absl_log_severityLibraries>
+    <Conanabseil_absl_log_severitySystemLibs></Conanabseil_absl_log_severitySystemLibs>
+  </PropertyGroup>
+</Project>

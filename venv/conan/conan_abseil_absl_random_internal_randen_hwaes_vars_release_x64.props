@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_randen_hwaesRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_randen_hwaesRootFolder>
+    <Conanabseil_absl_random_internal_randen_hwaesBinaryDirectories>$(Conanabseil_absl_random_internal_randen_hwaesRootFolder)/bin;</Conanabseil_absl_random_internal_randen_hwaesBinaryDirectories>
+    <Conanabseil_absl_random_internal_randen_hwaesCompilerFlags></Conanabseil_absl_random_internal_randen_hwaesCompilerFlags>
+    <Conanabseil_absl_random_internal_randen_hwaesLinkerFlags></Conanabseil_absl_random_internal_randen_hwaesLinkerFlags>
+    <Conanabseil_absl_random_internal_randen_hwaesPreprocessorDefinitions></Conanabseil_absl_random_internal_randen_hwaesPreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_randen_hwaesIncludeDirectories>$(Conanabseil_absl_random_internal_randen_hwaesRootFolder)/include;</Conanabseil_absl_random_internal_randen_hwaesIncludeDirectories>
+    <Conanabseil_absl_random_internal_randen_hwaesResourceDirectories></Conanabseil_absl_random_internal_randen_hwaesResourceDirectories>
+    <Conanabseil_absl_random_internal_randen_hwaesLibraryDirectories>$(Conanabseil_absl_random_internal_randen_hwaesRootFolder)/lib;</Conanabseil_absl_random_internal_randen_hwaesLibraryDirectories>
+    <Conanabseil_absl_random_internal_randen_hwaesLibraries>absl_random_internal_randen_hwaes.lib;</Conanabseil_absl_random_internal_randen_hwaesLibraries>
+    <Conanabseil_absl_random_internal_randen_hwaesSystemLibs></Conanabseil_absl_random_internal_randen_hwaesSystemLibs>
+  </PropertyGroup>
+</Project>

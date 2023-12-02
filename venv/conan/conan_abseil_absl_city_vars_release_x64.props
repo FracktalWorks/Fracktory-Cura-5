@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_cityRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_cityRootFolder>
+    <Conanabseil_absl_cityBinaryDirectories>$(Conanabseil_absl_cityRootFolder)/bin;</Conanabseil_absl_cityBinaryDirectories>
+    <Conanabseil_absl_cityCompilerFlags></Conanabseil_absl_cityCompilerFlags>
+    <Conanabseil_absl_cityLinkerFlags></Conanabseil_absl_cityLinkerFlags>
+    <Conanabseil_absl_cityPreprocessorDefinitions></Conanabseil_absl_cityPreprocessorDefinitions>
+    <Conanabseil_absl_cityIncludeDirectories>$(Conanabseil_absl_cityRootFolder)/include;</Conanabseil_absl_cityIncludeDirectories>
+    <Conanabseil_absl_cityResourceDirectories></Conanabseil_absl_cityResourceDirectories>
+    <Conanabseil_absl_cityLibraryDirectories>$(Conanabseil_absl_cityRootFolder)/lib;</Conanabseil_absl_cityLibraryDirectories>
+    <Conanabseil_absl_cityLibraries>absl_city.lib;</Conanabseil_absl_cityLibraries>
+    <Conanabseil_absl_citySystemLibs></Conanabseil_absl_citySystemLibs>
+  </PropertyGroup>
+</Project>

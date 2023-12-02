@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <ConanclipperRootFolder>C:/.conan/ca9f7a/1</ConanclipperRootFolder>
+    <ConanclipperBinaryDirectories>$(ConanclipperRootFolder)/bin;</ConanclipperBinaryDirectories>
+    <ConanclipperCompilerFlags></ConanclipperCompilerFlags>
+    <ConanclipperLinkerFlags></ConanclipperLinkerFlags>
+    <ConanclipperPreprocessorDefinitions></ConanclipperPreprocessorDefinitions>
+    <ConanclipperIncludeDirectories>$(ConanclipperRootFolder)/include;</ConanclipperIncludeDirectories>
+    <ConanclipperResourceDirectories>$(ConanclipperRootFolder)/res;</ConanclipperResourceDirectories>
+    <ConanclipperLibraryDirectories>$(ConanclipperRootFolder)/lib;</ConanclipperLibraryDirectories>
+    <ConanclipperLibraries>polyclipping.lib;</ConanclipperLibraries>
+    <ConanclipperSystemLibs></ConanclipperSystemLibs>
+  </PropertyGroup>
+</Project>

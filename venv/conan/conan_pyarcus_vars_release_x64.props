@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <ConanpyarcusRootFolder>C:/.conan/30b2ae/1</ConanpyarcusRootFolder>
+    <ConanpyarcusBinaryDirectories>$(ConanpyarcusRootFolder)/bin;</ConanpyarcusBinaryDirectories>
+    <ConanpyarcusCompilerFlags></ConanpyarcusCompilerFlags>
+    <ConanpyarcusLinkerFlags></ConanpyarcusLinkerFlags>
+    <ConanpyarcusPreprocessorDefinitions></ConanpyarcusPreprocessorDefinitions>
+    <ConanpyarcusIncludeDirectories>$(ConanpyarcusRootFolder)/include;</ConanpyarcusIncludeDirectories>
+    <ConanpyarcusResourceDirectories></ConanpyarcusResourceDirectories>
+    <ConanpyarcusLibraryDirectories>$(ConanpyarcusRootFolder)/lib;</ConanpyarcusLibraryDirectories>
+    <ConanpyarcusLibraries></ConanpyarcusLibraries>
+    <ConanpyarcusSystemLibs></ConanpyarcusSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangoogleapis_google_api_monitoring_protoRootFolder>C:/.conan/99af4c/1</Conangoogleapis_google_api_monitoring_protoRootFolder>
+    <Conangoogleapis_google_api_monitoring_protoBinaryDirectories>$(Conangoogleapis_google_api_monitoring_protoRootFolder)/bin;</Conangoogleapis_google_api_monitoring_protoBinaryDirectories>
+    <Conangoogleapis_google_api_monitoring_protoCompilerFlags></Conangoogleapis_google_api_monitoring_protoCompilerFlags>
+    <Conangoogleapis_google_api_monitoring_protoLinkerFlags></Conangoogleapis_google_api_monitoring_protoLinkerFlags>
+    <Conangoogleapis_google_api_monitoring_protoPreprocessorDefinitions></Conangoogleapis_google_api_monitoring_protoPreprocessorDefinitions>
+    <Conangoogleapis_google_api_monitoring_protoIncludeDirectories>$(Conangoogleapis_google_api_monitoring_protoRootFolder)/include;</Conangoogleapis_google_api_monitoring_protoIncludeDirectories>
+    <Conangoogleapis_google_api_monitoring_protoResourceDirectories>$(Conangoogleapis_google_api_monitoring_protoRootFolder)/res;</Conangoogleapis_google_api_monitoring_protoResourceDirectories>
+    <Conangoogleapis_google_api_monitoring_protoLibraryDirectories>$(Conangoogleapis_google_api_monitoring_protoRootFolder)/lib;</Conangoogleapis_google_api_monitoring_protoLibraryDirectories>
+    <Conangoogleapis_google_api_monitoring_protoLibraries>google_api_monitoring_proto.lib;</Conangoogleapis_google_api_monitoring_protoLibraries>
+    <Conangoogleapis_google_api_monitoring_protoSystemLibs></Conangoogleapis_google_api_monitoring_protoSystemLibs>
+  </PropertyGroup>
+</Project>

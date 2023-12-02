@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_cordz_update_trackerRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_cordz_update_trackerRootFolder>
+    <Conanabseil_absl_cordz_update_trackerBinaryDirectories>$(Conanabseil_absl_cordz_update_trackerRootFolder)/bin;</Conanabseil_absl_cordz_update_trackerBinaryDirectories>
+    <Conanabseil_absl_cordz_update_trackerCompilerFlags></Conanabseil_absl_cordz_update_trackerCompilerFlags>
+    <Conanabseil_absl_cordz_update_trackerLinkerFlags></Conanabseil_absl_cordz_update_trackerLinkerFlags>
+    <Conanabseil_absl_cordz_update_trackerPreprocessorDefinitions></Conanabseil_absl_cordz_update_trackerPreprocessorDefinitions>
+    <Conanabseil_absl_cordz_update_trackerIncludeDirectories>$(Conanabseil_absl_cordz_update_trackerRootFolder)/include;</Conanabseil_absl_cordz_update_trackerIncludeDirectories>
+    <Conanabseil_absl_cordz_update_trackerResourceDirectories></Conanabseil_absl_cordz_update_trackerResourceDirectories>
+    <Conanabseil_absl_cordz_update_trackerLibraryDirectories>$(Conanabseil_absl_cordz_update_trackerRootFolder)/lib;</Conanabseil_absl_cordz_update_trackerLibraryDirectories>
+    <Conanabseil_absl_cordz_update_trackerLibraries></Conanabseil_absl_cordz_update_trackerLibraries>
+    <Conanabseil_absl_cordz_update_trackerSystemLibs></Conanabseil_absl_cordz_update_trackerSystemLibs>
+  </PropertyGroup>
+</Project>

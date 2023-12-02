@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_spinlock_waitRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_spinlock_waitRootFolder>
+    <Conanabseil_absl_spinlock_waitBinaryDirectories>$(Conanabseil_absl_spinlock_waitRootFolder)/bin;</Conanabseil_absl_spinlock_waitBinaryDirectories>
+    <Conanabseil_absl_spinlock_waitCompilerFlags></Conanabseil_absl_spinlock_waitCompilerFlags>
+    <Conanabseil_absl_spinlock_waitLinkerFlags></Conanabseil_absl_spinlock_waitLinkerFlags>
+    <Conanabseil_absl_spinlock_waitPreprocessorDefinitions></Conanabseil_absl_spinlock_waitPreprocessorDefinitions>
+    <Conanabseil_absl_spinlock_waitIncludeDirectories>$(Conanabseil_absl_spinlock_waitRootFolder)/include;</Conanabseil_absl_spinlock_waitIncludeDirectories>
+    <Conanabseil_absl_spinlock_waitResourceDirectories></Conanabseil_absl_spinlock_waitResourceDirectories>
+    <Conanabseil_absl_spinlock_waitLibraryDirectories>$(Conanabseil_absl_spinlock_waitRootFolder)/lib;</Conanabseil_absl_spinlock_waitLibraryDirectories>
+    <Conanabseil_absl_spinlock_waitLibraries>absl_spinlock_wait.lib;</Conanabseil_absl_spinlock_waitLibraries>
+    <Conanabseil_absl_spinlock_waitSystemLibs></Conanabseil_absl_spinlock_waitSystemLibs>
+  </PropertyGroup>
+</Project>

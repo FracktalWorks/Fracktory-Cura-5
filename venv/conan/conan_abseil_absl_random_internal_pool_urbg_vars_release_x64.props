@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_pool_urbgRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_pool_urbgRootFolder>
+    <Conanabseil_absl_random_internal_pool_urbgBinaryDirectories>$(Conanabseil_absl_random_internal_pool_urbgRootFolder)/bin;</Conanabseil_absl_random_internal_pool_urbgBinaryDirectories>
+    <Conanabseil_absl_random_internal_pool_urbgCompilerFlags></Conanabseil_absl_random_internal_pool_urbgCompilerFlags>
+    <Conanabseil_absl_random_internal_pool_urbgLinkerFlags></Conanabseil_absl_random_internal_pool_urbgLinkerFlags>
+    <Conanabseil_absl_random_internal_pool_urbgPreprocessorDefinitions></Conanabseil_absl_random_internal_pool_urbgPreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_pool_urbgIncludeDirectories>$(Conanabseil_absl_random_internal_pool_urbgRootFolder)/include;</Conanabseil_absl_random_internal_pool_urbgIncludeDirectories>
+    <Conanabseil_absl_random_internal_pool_urbgResourceDirectories></Conanabseil_absl_random_internal_pool_urbgResourceDirectories>
+    <Conanabseil_absl_random_internal_pool_urbgLibraryDirectories>$(Conanabseil_absl_random_internal_pool_urbgRootFolder)/lib;</Conanabseil_absl_random_internal_pool_urbgLibraryDirectories>
+    <Conanabseil_absl_random_internal_pool_urbgLibraries>absl_random_internal_pool_urbg.lib;</Conanabseil_absl_random_internal_pool_urbgLibraries>
+    <Conanabseil_absl_random_internal_pool_urbgSystemLibs></Conanabseil_absl_random_internal_pool_urbgSystemLibs>
+  </PropertyGroup>
+</Project>

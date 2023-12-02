@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_randen_slowRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_randen_slowRootFolder>
+    <Conanabseil_absl_random_internal_randen_slowBinaryDirectories>$(Conanabseil_absl_random_internal_randen_slowRootFolder)/bin;</Conanabseil_absl_random_internal_randen_slowBinaryDirectories>
+    <Conanabseil_absl_random_internal_randen_slowCompilerFlags></Conanabseil_absl_random_internal_randen_slowCompilerFlags>
+    <Conanabseil_absl_random_internal_randen_slowLinkerFlags></Conanabseil_absl_random_internal_randen_slowLinkerFlags>
+    <Conanabseil_absl_random_internal_randen_slowPreprocessorDefinitions></Conanabseil_absl_random_internal_randen_slowPreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_randen_slowIncludeDirectories>$(Conanabseil_absl_random_internal_randen_slowRootFolder)/include;</Conanabseil_absl_random_internal_randen_slowIncludeDirectories>
+    <Conanabseil_absl_random_internal_randen_slowResourceDirectories></Conanabseil_absl_random_internal_randen_slowResourceDirectories>
+    <Conanabseil_absl_random_internal_randen_slowLibraryDirectories>$(Conanabseil_absl_random_internal_randen_slowRootFolder)/lib;</Conanabseil_absl_random_internal_randen_slowLibraryDirectories>
+    <Conanabseil_absl_random_internal_randen_slowLibraries>absl_random_internal_randen_slow.lib;</Conanabseil_absl_random_internal_randen_slowLibraries>
+    <Conanabseil_absl_random_internal_randen_slowSystemLibs></Conanabseil_absl_random_internal_randen_slowSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_counting_allocatorRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_counting_allocatorRootFolder>
+    <Conanabseil_absl_counting_allocatorBinaryDirectories>$(Conanabseil_absl_counting_allocatorRootFolder)/bin;</Conanabseil_absl_counting_allocatorBinaryDirectories>
+    <Conanabseil_absl_counting_allocatorCompilerFlags></Conanabseil_absl_counting_allocatorCompilerFlags>
+    <Conanabseil_absl_counting_allocatorLinkerFlags></Conanabseil_absl_counting_allocatorLinkerFlags>
+    <Conanabseil_absl_counting_allocatorPreprocessorDefinitions></Conanabseil_absl_counting_allocatorPreprocessorDefinitions>
+    <Conanabseil_absl_counting_allocatorIncludeDirectories>$(Conanabseil_absl_counting_allocatorRootFolder)/include;</Conanabseil_absl_counting_allocatorIncludeDirectories>
+    <Conanabseil_absl_counting_allocatorResourceDirectories></Conanabseil_absl_counting_allocatorResourceDirectories>
+    <Conanabseil_absl_counting_allocatorLibraryDirectories>$(Conanabseil_absl_counting_allocatorRootFolder)/lib;</Conanabseil_absl_counting_allocatorLibraryDirectories>
+    <Conanabseil_absl_counting_allocatorLibraries></Conanabseil_absl_counting_allocatorLibraries>
+    <Conanabseil_absl_counting_allocatorSystemLibs></Conanabseil_absl_counting_allocatorSystemLibs>
+  </PropertyGroup>
+</Project>

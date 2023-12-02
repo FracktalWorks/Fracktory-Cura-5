@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <ConantclRootFolder>C:/.conan/3b712d/1</ConantclRootFolder>
+    <ConantclBinaryDirectories>$(ConantclRootFolder)/bin;</ConantclBinaryDirectories>
+    <ConantclCompilerFlags></ConantclCompilerFlags>
+    <ConantclLinkerFlags></ConantclLinkerFlags>
+    <ConantclPreprocessorDefinitions>STATIC_BUILD;</ConantclPreprocessorDefinitions>
+    <ConantclIncludeDirectories>$(ConantclRootFolder)/include;</ConantclIncludeDirectories>
+    <ConantclResourceDirectories>$(ConantclRootFolder)/res;</ConantclResourceDirectories>
+    <ConantclLibraryDirectories>$(ConantclRootFolder)/lib;</ConantclLibraryDirectories>
+    <ConantclLibraries>tcl86tsx.lib;tcldde14sx.lib;tclreg13sx.lib;tclstub86.lib;</ConantclLibraries>
+    <ConantclSystemLibs>ws2_32.lib;netapi32.lib;userenv.lib;</ConantclSystemLibs>
+  </PropertyGroup>
+</Project>

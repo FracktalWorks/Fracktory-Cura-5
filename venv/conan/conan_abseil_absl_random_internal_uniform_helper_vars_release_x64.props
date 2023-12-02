@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_uniform_helperRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_uniform_helperRootFolder>
+    <Conanabseil_absl_random_internal_uniform_helperBinaryDirectories>$(Conanabseil_absl_random_internal_uniform_helperRootFolder)/bin;</Conanabseil_absl_random_internal_uniform_helperBinaryDirectories>
+    <Conanabseil_absl_random_internal_uniform_helperCompilerFlags></Conanabseil_absl_random_internal_uniform_helperCompilerFlags>
+    <Conanabseil_absl_random_internal_uniform_helperLinkerFlags></Conanabseil_absl_random_internal_uniform_helperLinkerFlags>
+    <Conanabseil_absl_random_internal_uniform_helperPreprocessorDefinitions></Conanabseil_absl_random_internal_uniform_helperPreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_uniform_helperIncludeDirectories>$(Conanabseil_absl_random_internal_uniform_helperRootFolder)/include;</Conanabseil_absl_random_internal_uniform_helperIncludeDirectories>
+    <Conanabseil_absl_random_internal_uniform_helperResourceDirectories></Conanabseil_absl_random_internal_uniform_helperResourceDirectories>
+    <Conanabseil_absl_random_internal_uniform_helperLibraryDirectories>$(Conanabseil_absl_random_internal_uniform_helperRootFolder)/lib;</Conanabseil_absl_random_internal_uniform_helperLibraryDirectories>
+    <Conanabseil_absl_random_internal_uniform_helperLibraries></Conanabseil_absl_random_internal_uniform_helperLibraries>
+    <Conanabseil_absl_random_internal_uniform_helperSystemLibs></Conanabseil_absl_random_internal_uniform_helperSystemLibs>
+  </PropertyGroup>
+</Project>

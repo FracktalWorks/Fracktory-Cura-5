@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conandocopt_cpp_docoptRootFolder>C:/.conan/6f73b4/1</Conandocopt_cpp_docoptRootFolder>
+    <Conandocopt_cpp_docoptBinaryDirectories>$(Conandocopt_cpp_docoptRootFolder)/bin;</Conandocopt_cpp_docoptBinaryDirectories>
+    <Conandocopt_cpp_docoptCompilerFlags></Conandocopt_cpp_docoptCompilerFlags>
+    <Conandocopt_cpp_docoptLinkerFlags></Conandocopt_cpp_docoptLinkerFlags>
+    <Conandocopt_cpp_docoptPreprocessorDefinitions></Conandocopt_cpp_docoptPreprocessorDefinitions>
+    <Conandocopt_cpp_docoptIncludeDirectories>$(Conandocopt_cpp_docoptRootFolder)/include;</Conandocopt_cpp_docoptIncludeDirectories>
+    <Conandocopt_cpp_docoptResourceDirectories></Conandocopt_cpp_docoptResourceDirectories>
+    <Conandocopt_cpp_docoptLibraryDirectories>$(Conandocopt_cpp_docoptRootFolder)/lib;</Conandocopt_cpp_docoptLibraryDirectories>
+    <Conandocopt_cpp_docoptLibraries>docopt.lib;</Conandocopt_cpp_docoptLibraries>
+    <Conandocopt_cpp_docoptSystemLibs></Conandocopt_cpp_docoptSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_salted_seed_seqRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_salted_seed_seqRootFolder>
+    <Conanabseil_absl_random_internal_salted_seed_seqBinaryDirectories>$(Conanabseil_absl_random_internal_salted_seed_seqRootFolder)/bin;</Conanabseil_absl_random_internal_salted_seed_seqBinaryDirectories>
+    <Conanabseil_absl_random_internal_salted_seed_seqCompilerFlags></Conanabseil_absl_random_internal_salted_seed_seqCompilerFlags>
+    <Conanabseil_absl_random_internal_salted_seed_seqLinkerFlags></Conanabseil_absl_random_internal_salted_seed_seqLinkerFlags>
+    <Conanabseil_absl_random_internal_salted_seed_seqPreprocessorDefinitions></Conanabseil_absl_random_internal_salted_seed_seqPreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_salted_seed_seqIncludeDirectories>$(Conanabseil_absl_random_internal_salted_seed_seqRootFolder)/include;</Conanabseil_absl_random_internal_salted_seed_seqIncludeDirectories>
+    <Conanabseil_absl_random_internal_salted_seed_seqResourceDirectories></Conanabseil_absl_random_internal_salted_seed_seqResourceDirectories>
+    <Conanabseil_absl_random_internal_salted_seed_seqLibraryDirectories>$(Conanabseil_absl_random_internal_salted_seed_seqRootFolder)/lib;</Conanabseil_absl_random_internal_salted_seed_seqLibraryDirectories>
+    <Conanabseil_absl_random_internal_salted_seed_seqLibraries></Conanabseil_absl_random_internal_salted_seed_seqLibraries>
+    <Conanabseil_absl_random_internal_salted_seed_seqSystemLibs></Conanabseil_absl_random_internal_salted_seed_seqSystemLibs>
+  </PropertyGroup>
+</Project>

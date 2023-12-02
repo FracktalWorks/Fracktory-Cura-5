@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_iostream_state_saverRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_iostream_state_saverRootFolder>
+    <Conanabseil_absl_random_internal_iostream_state_saverBinaryDirectories>$(Conanabseil_absl_random_internal_iostream_state_saverRootFolder)/bin;</Conanabseil_absl_random_internal_iostream_state_saverBinaryDirectories>
+    <Conanabseil_absl_random_internal_iostream_state_saverCompilerFlags></Conanabseil_absl_random_internal_iostream_state_saverCompilerFlags>
+    <Conanabseil_absl_random_internal_iostream_state_saverLinkerFlags></Conanabseil_absl_random_internal_iostream_state_saverLinkerFlags>
+    <Conanabseil_absl_random_internal_iostream_state_saverPreprocessorDefinitions></Conanabseil_absl_random_internal_iostream_state_saverPreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_iostream_state_saverIncludeDirectories>$(Conanabseil_absl_random_internal_iostream_state_saverRootFolder)/include;</Conanabseil_absl_random_internal_iostream_state_saverIncludeDirectories>
+    <Conanabseil_absl_random_internal_iostream_state_saverResourceDirectories></Conanabseil_absl_random_internal_iostream_state_saverResourceDirectories>
+    <Conanabseil_absl_random_internal_iostream_state_saverLibraryDirectories>$(Conanabseil_absl_random_internal_iostream_state_saverRootFolder)/lib;</Conanabseil_absl_random_internal_iostream_state_saverLibraryDirectories>
+    <Conanabseil_absl_random_internal_iostream_state_saverLibraries></Conanabseil_absl_random_internal_iostream_state_saverLibraries>
+    <Conanabseil_absl_random_internal_iostream_state_saverSystemLibs></Conanabseil_absl_random_internal_iostream_state_saverSystemLibs>
+  </PropertyGroup>
+</Project>

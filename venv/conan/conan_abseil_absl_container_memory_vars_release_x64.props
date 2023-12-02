@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_container_memoryRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_container_memoryRootFolder>
+    <Conanabseil_absl_container_memoryBinaryDirectories>$(Conanabseil_absl_container_memoryRootFolder)/bin;</Conanabseil_absl_container_memoryBinaryDirectories>
+    <Conanabseil_absl_container_memoryCompilerFlags></Conanabseil_absl_container_memoryCompilerFlags>
+    <Conanabseil_absl_container_memoryLinkerFlags></Conanabseil_absl_container_memoryLinkerFlags>
+    <Conanabseil_absl_container_memoryPreprocessorDefinitions></Conanabseil_absl_container_memoryPreprocessorDefinitions>
+    <Conanabseil_absl_container_memoryIncludeDirectories>$(Conanabseil_absl_container_memoryRootFolder)/include;</Conanabseil_absl_container_memoryIncludeDirectories>
+    <Conanabseil_absl_container_memoryResourceDirectories></Conanabseil_absl_container_memoryResourceDirectories>
+    <Conanabseil_absl_container_memoryLibraryDirectories>$(Conanabseil_absl_container_memoryRootFolder)/lib;</Conanabseil_absl_container_memoryLibraryDirectories>
+    <Conanabseil_absl_container_memoryLibraries></Conanabseil_absl_container_memoryLibraries>
+    <Conanabseil_absl_container_memorySystemLibs></Conanabseil_absl_container_memorySystemLibs>
+  </PropertyGroup>
+</Project>

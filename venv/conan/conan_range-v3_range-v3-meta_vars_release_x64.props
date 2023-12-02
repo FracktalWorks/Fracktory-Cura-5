@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanrange-v3_range-v3-metaRootFolder>C:/.conan/521d09/1</Conanrange-v3_range-v3-metaRootFolder>
+    <Conanrange-v3_range-v3-metaBinaryDirectories>$(Conanrange-v3_range-v3-metaRootFolder)/bin;</Conanrange-v3_range-v3-metaBinaryDirectories>
+    <Conanrange-v3_range-v3-metaCompilerFlags>/permissive-</Conanrange-v3_range-v3-metaCompilerFlags>
+    <Conanrange-v3_range-v3-metaLinkerFlags></Conanrange-v3_range-v3-metaLinkerFlags>
+    <Conanrange-v3_range-v3-metaPreprocessorDefinitions></Conanrange-v3_range-v3-metaPreprocessorDefinitions>
+    <Conanrange-v3_range-v3-metaIncludeDirectories>$(Conanrange-v3_range-v3-metaRootFolder)/include;</Conanrange-v3_range-v3-metaIncludeDirectories>
+    <Conanrange-v3_range-v3-metaResourceDirectories></Conanrange-v3_range-v3-metaResourceDirectories>
+    <Conanrange-v3_range-v3-metaLibraryDirectories>$(Conanrange-v3_range-v3-metaRootFolder)/lib;</Conanrange-v3_range-v3-metaLibraryDirectories>
+    <Conanrange-v3_range-v3-metaLibraries></Conanrange-v3_range-v3-metaLibraries>
+    <Conanrange-v3_range-v3-metaSystemLibs></Conanrange-v3_range-v3-metaSystemLibs>
+  </PropertyGroup>
+</Project>

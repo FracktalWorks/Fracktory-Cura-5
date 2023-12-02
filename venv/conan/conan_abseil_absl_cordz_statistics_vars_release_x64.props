@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_cordz_statisticsRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_cordz_statisticsRootFolder>
+    <Conanabseil_absl_cordz_statisticsBinaryDirectories>$(Conanabseil_absl_cordz_statisticsRootFolder)/bin;</Conanabseil_absl_cordz_statisticsBinaryDirectories>
+    <Conanabseil_absl_cordz_statisticsCompilerFlags></Conanabseil_absl_cordz_statisticsCompilerFlags>
+    <Conanabseil_absl_cordz_statisticsLinkerFlags></Conanabseil_absl_cordz_statisticsLinkerFlags>
+    <Conanabseil_absl_cordz_statisticsPreprocessorDefinitions></Conanabseil_absl_cordz_statisticsPreprocessorDefinitions>
+    <Conanabseil_absl_cordz_statisticsIncludeDirectories>$(Conanabseil_absl_cordz_statisticsRootFolder)/include;</Conanabseil_absl_cordz_statisticsIncludeDirectories>
+    <Conanabseil_absl_cordz_statisticsResourceDirectories></Conanabseil_absl_cordz_statisticsResourceDirectories>
+    <Conanabseil_absl_cordz_statisticsLibraryDirectories>$(Conanabseil_absl_cordz_statisticsRootFolder)/lib;</Conanabseil_absl_cordz_statisticsLibraryDirectories>
+    <Conanabseil_absl_cordz_statisticsLibraries></Conanabseil_absl_cordz_statisticsLibraries>
+    <Conanabseil_absl_cordz_statisticsSystemLibs></Conanabseil_absl_cordz_statisticsSystemLibs>
+  </PropertyGroup>
+</Project>

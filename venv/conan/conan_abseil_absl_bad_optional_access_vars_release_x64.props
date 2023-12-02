@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_bad_optional_accessRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_bad_optional_accessRootFolder>
+    <Conanabseil_absl_bad_optional_accessBinaryDirectories>$(Conanabseil_absl_bad_optional_accessRootFolder)/bin;</Conanabseil_absl_bad_optional_accessBinaryDirectories>
+    <Conanabseil_absl_bad_optional_accessCompilerFlags></Conanabseil_absl_bad_optional_accessCompilerFlags>
+    <Conanabseil_absl_bad_optional_accessLinkerFlags></Conanabseil_absl_bad_optional_accessLinkerFlags>
+    <Conanabseil_absl_bad_optional_accessPreprocessorDefinitions></Conanabseil_absl_bad_optional_accessPreprocessorDefinitions>
+    <Conanabseil_absl_bad_optional_accessIncludeDirectories>$(Conanabseil_absl_bad_optional_accessRootFolder)/include;</Conanabseil_absl_bad_optional_accessIncludeDirectories>
+    <Conanabseil_absl_bad_optional_accessResourceDirectories></Conanabseil_absl_bad_optional_accessResourceDirectories>
+    <Conanabseil_absl_bad_optional_accessLibraryDirectories>$(Conanabseil_absl_bad_optional_accessRootFolder)/lib;</Conanabseil_absl_bad_optional_accessLibraryDirectories>
+    <Conanabseil_absl_bad_optional_accessLibraries>absl_bad_optional_access.lib;</Conanabseil_absl_bad_optional_accessLibraries>
+    <Conanabseil_absl_bad_optional_accessSystemLibs></Conanabseil_absl_bad_optional_accessSystemLibs>
+  </PropertyGroup>
+</Project>

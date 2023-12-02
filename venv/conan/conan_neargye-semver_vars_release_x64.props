@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanneargye-semverRootFolder>C:/.conan/558f4d/1</Conanneargye-semverRootFolder>
+    <Conanneargye-semverBinaryDirectories>$(Conanneargye-semverRootFolder)/bin;</Conanneargye-semverBinaryDirectories>
+    <Conanneargye-semverCompilerFlags></Conanneargye-semverCompilerFlags>
+    <Conanneargye-semverLinkerFlags></Conanneargye-semverLinkerFlags>
+    <Conanneargye-semverPreprocessorDefinitions></Conanneargye-semverPreprocessorDefinitions>
+    <Conanneargye-semverIncludeDirectories>$(Conanneargye-semverRootFolder)/include;</Conanneargye-semverIncludeDirectories>
+    <Conanneargye-semverResourceDirectories>$(Conanneargye-semverRootFolder)/res;</Conanneargye-semverResourceDirectories>
+    <Conanneargye-semverLibraryDirectories>$(Conanneargye-semverRootFolder)/lib;</Conanneargye-semverLibraryDirectories>
+    <Conanneargye-semverLibraries></Conanneargye-semverLibraries>
+    <Conanneargye-semverSystemLibs></Conanneargye-semverSystemLibs>
+  </PropertyGroup>
+</Project>

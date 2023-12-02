@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_grpc_address_sorting_props_imported)' != 'True'" Project="conan_grpc_address_sorting.props"/>
+		<Import Condition="'$(conan_grpc_gpr_props_imported)' != 'True'" Project="conan_grpc_gpr.props"/>
+		<Import Condition="'$(conan_grpc__grpc_props_imported)' != 'True'" Project="conan_grpc__grpc.props"/>
+		<Import Condition="'$(conan_grpc_grpc___props_imported)' != 'True'" Project="conan_grpc_grpc__.props"/>
+		<Import Condition="'$(conan_grpc_grpc___alts_props_imported)' != 'True'" Project="conan_grpc_grpc___alts.props"/>
+		<Import Condition="'$(conan_grpc_grpc___error_details_props_imported)' != 'True'" Project="conan_grpc_grpc___error_details.props"/>
+		<Import Condition="'$(conan_grpc_upb_props_imported)' != 'True'" Project="conan_grpc_upb.props"/>
+		<Import Condition="'$(conan_grpc_grpc_plugin_support_props_imported)' != 'True'" Project="conan_grpc_grpc_plugin_support.props"/>
+		<Import Condition="'$(conan_grpc_grpc_unsecure_props_imported)' != 'True'" Project="conan_grpc_grpc_unsecure.props"/>
+		<Import Condition="'$(conan_grpc_grpc___unsecure_props_imported)' != 'True'" Project="conan_grpc_grpc___unsecure.props"/>
+		<Import Condition="'$(conan_grpc_grpc___reflection_props_imported)' != 'True'" Project="conan_grpc_grpc___reflection.props"/>
+		<Import Condition="'$(conan_grpc_grpcpp_channelz_props_imported)' != 'True'" Project="conan_grpc_grpcpp_channelz.props"/>
+		<Import Condition="'$(conan_grpc_grpc_execs_props_imported)' != 'True'" Project="conan_grpc_grpc_execs.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_grpc_props_imported>True</conan_grpc_props_imported>
+	</PropertyGroup>
+</Project>

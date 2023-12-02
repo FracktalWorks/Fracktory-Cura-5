@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_strerrorRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_strerrorRootFolder>
+    <Conanabseil_absl_strerrorBinaryDirectories>$(Conanabseil_absl_strerrorRootFolder)/bin;</Conanabseil_absl_strerrorBinaryDirectories>
+    <Conanabseil_absl_strerrorCompilerFlags></Conanabseil_absl_strerrorCompilerFlags>
+    <Conanabseil_absl_strerrorLinkerFlags></Conanabseil_absl_strerrorLinkerFlags>
+    <Conanabseil_absl_strerrorPreprocessorDefinitions></Conanabseil_absl_strerrorPreprocessorDefinitions>
+    <Conanabseil_absl_strerrorIncludeDirectories>$(Conanabseil_absl_strerrorRootFolder)/include;</Conanabseil_absl_strerrorIncludeDirectories>
+    <Conanabseil_absl_strerrorResourceDirectories></Conanabseil_absl_strerrorResourceDirectories>
+    <Conanabseil_absl_strerrorLibraryDirectories>$(Conanabseil_absl_strerrorRootFolder)/lib;</Conanabseil_absl_strerrorLibraryDirectories>
+    <Conanabseil_absl_strerrorLibraries>absl_strerror.lib;</Conanabseil_absl_strerrorLibraries>
+    <Conanabseil_absl_strerrorSystemLibs></Conanabseil_absl_strerrorSystemLibs>
+  </PropertyGroup>
+</Project>

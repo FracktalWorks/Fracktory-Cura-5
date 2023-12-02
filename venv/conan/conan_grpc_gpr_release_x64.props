@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_grpc_upb_props_imported)' != 'True'" Project="conan_grpc_upb.props"/>
+    <Import Condition="'$(conan_abseil_absl_base_props_imported)' != 'True'" Project="conan_abseil_absl_base.props"/>
+    <Import Condition="'$(conan_abseil_absl_memory_props_imported)' != 'True'" Project="conan_abseil_absl_memory.props"/>
+    <Import Condition="'$(conan_abseil_absl_status_props_imported)' != 'True'" Project="conan_abseil_absl_status.props"/>
+    <Import Condition="'$(conan_abseil_absl_str_format_props_imported)' != 'True'" Project="conan_abseil_absl_str_format.props"/>
+    <Import Condition="'$(conan_abseil_absl_strings_props_imported)' != 'True'" Project="conan_abseil_absl_strings.props"/>
+    <Import Condition="'$(conan_abseil_absl_synchronization_props_imported)' != 'True'" Project="conan_abseil_absl_synchronization.props"/>
+    <Import Condition="'$(conan_abseil_absl_time_props_imported)' != 'True'" Project="conan_abseil_absl_time.props"/>
+    <Import Condition="'$(conan_abseil_absl_optional_props_imported)' != 'True'" Project="conan_abseil_absl_optional.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_grpc_gpr_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conangrpc_gprBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conangrpc_gprIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conangrpc_gprPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conangrpc_gprCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conangrpc_gprLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conangrpc_gprLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conangrpc_gprSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conangrpc_gprLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conangrpc_gprIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conangrpc_gprIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conangrpc_gprPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conangrpc_gprCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

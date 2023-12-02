@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_seed_gen_exceptionRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_seed_gen_exceptionRootFolder>
+    <Conanabseil_absl_random_seed_gen_exceptionBinaryDirectories>$(Conanabseil_absl_random_seed_gen_exceptionRootFolder)/bin;</Conanabseil_absl_random_seed_gen_exceptionBinaryDirectories>
+    <Conanabseil_absl_random_seed_gen_exceptionCompilerFlags></Conanabseil_absl_random_seed_gen_exceptionCompilerFlags>
+    <Conanabseil_absl_random_seed_gen_exceptionLinkerFlags></Conanabseil_absl_random_seed_gen_exceptionLinkerFlags>
+    <Conanabseil_absl_random_seed_gen_exceptionPreprocessorDefinitions></Conanabseil_absl_random_seed_gen_exceptionPreprocessorDefinitions>
+    <Conanabseil_absl_random_seed_gen_exceptionIncludeDirectories>$(Conanabseil_absl_random_seed_gen_exceptionRootFolder)/include;</Conanabseil_absl_random_seed_gen_exceptionIncludeDirectories>
+    <Conanabseil_absl_random_seed_gen_exceptionResourceDirectories></Conanabseil_absl_random_seed_gen_exceptionResourceDirectories>
+    <Conanabseil_absl_random_seed_gen_exceptionLibraryDirectories>$(Conanabseil_absl_random_seed_gen_exceptionRootFolder)/lib;</Conanabseil_absl_random_seed_gen_exceptionLibraryDirectories>
+    <Conanabseil_absl_random_seed_gen_exceptionLibraries>absl_random_seed_gen_exception.lib;</Conanabseil_absl_random_seed_gen_exceptionLibraries>
+    <Conanabseil_absl_random_seed_gen_exceptionSystemLibs></Conanabseil_absl_random_seed_gen_exceptionSystemLibs>
+  </PropertyGroup>
+</Project>

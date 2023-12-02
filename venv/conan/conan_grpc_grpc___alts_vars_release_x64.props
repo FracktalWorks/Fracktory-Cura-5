@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangrpc_grpc___altsRootFolder>C:/.conan/1ae3ce/1</Conangrpc_grpc___altsRootFolder>
+    <Conangrpc_grpc___altsBinaryDirectories>$(Conangrpc_grpc___altsRootFolder)/bin;</Conangrpc_grpc___altsBinaryDirectories>
+    <Conangrpc_grpc___altsCompilerFlags></Conangrpc_grpc___altsCompilerFlags>
+    <Conangrpc_grpc___altsLinkerFlags></Conangrpc_grpc___altsLinkerFlags>
+    <Conangrpc_grpc___altsPreprocessorDefinitions></Conangrpc_grpc___altsPreprocessorDefinitions>
+    <Conangrpc_grpc___altsIncludeDirectories>$(Conangrpc_grpc___altsRootFolder)/include;</Conangrpc_grpc___altsIncludeDirectories>
+    <Conangrpc_grpc___altsResourceDirectories></Conangrpc_grpc___altsResourceDirectories>
+    <Conangrpc_grpc___altsLibraryDirectories>$(Conangrpc_grpc___altsRootFolder)/lib;</Conangrpc_grpc___altsLibraryDirectories>
+    <Conangrpc_grpc___altsLibraries>grpc++_alts.lib;</Conangrpc_grpc___altsLibraries>
+    <Conangrpc_grpc___altsSystemLibs>crypt32.lib;ws2_32.lib;wsock32.lib;</Conangrpc_grpc___altsSystemLibs>
+  </PropertyGroup>
+</Project>

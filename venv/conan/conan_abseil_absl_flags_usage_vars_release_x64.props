@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_flags_usageRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_flags_usageRootFolder>
+    <Conanabseil_absl_flags_usageBinaryDirectories>$(Conanabseil_absl_flags_usageRootFolder)/bin;</Conanabseil_absl_flags_usageBinaryDirectories>
+    <Conanabseil_absl_flags_usageCompilerFlags></Conanabseil_absl_flags_usageCompilerFlags>
+    <Conanabseil_absl_flags_usageLinkerFlags></Conanabseil_absl_flags_usageLinkerFlags>
+    <Conanabseil_absl_flags_usagePreprocessorDefinitions></Conanabseil_absl_flags_usagePreprocessorDefinitions>
+    <Conanabseil_absl_flags_usageIncludeDirectories>$(Conanabseil_absl_flags_usageRootFolder)/include;</Conanabseil_absl_flags_usageIncludeDirectories>
+    <Conanabseil_absl_flags_usageResourceDirectories></Conanabseil_absl_flags_usageResourceDirectories>
+    <Conanabseil_absl_flags_usageLibraryDirectories>$(Conanabseil_absl_flags_usageRootFolder)/lib;</Conanabseil_absl_flags_usageLibraryDirectories>
+    <Conanabseil_absl_flags_usageLibraries>absl_flags_usage.lib;</Conanabseil_absl_flags_usageLibraries>
+    <Conanabseil_absl_flags_usageSystemLibs></Conanabseil_absl_flags_usageSystemLibs>
+  </PropertyGroup>
+</Project>

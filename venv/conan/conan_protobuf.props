@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_protobuf_libprotobuf_props_imported)' != 'True'" Project="conan_protobuf_libprotobuf.props"/>
+		<Import Condition="'$(conan_protobuf_libprotoc_props_imported)' != 'True'" Project="conan_protobuf_libprotoc.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_protobuf_props_imported>True</conan_protobuf_props_imported>
+	</PropertyGroup>
+</Project>

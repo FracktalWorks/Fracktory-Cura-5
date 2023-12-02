@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_examine_stackRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_examine_stackRootFolder>
+    <Conanabseil_absl_examine_stackBinaryDirectories>$(Conanabseil_absl_examine_stackRootFolder)/bin;</Conanabseil_absl_examine_stackBinaryDirectories>
+    <Conanabseil_absl_examine_stackCompilerFlags></Conanabseil_absl_examine_stackCompilerFlags>
+    <Conanabseil_absl_examine_stackLinkerFlags></Conanabseil_absl_examine_stackLinkerFlags>
+    <Conanabseil_absl_examine_stackPreprocessorDefinitions></Conanabseil_absl_examine_stackPreprocessorDefinitions>
+    <Conanabseil_absl_examine_stackIncludeDirectories>$(Conanabseil_absl_examine_stackRootFolder)/include;</Conanabseil_absl_examine_stackIncludeDirectories>
+    <Conanabseil_absl_examine_stackResourceDirectories></Conanabseil_absl_examine_stackResourceDirectories>
+    <Conanabseil_absl_examine_stackLibraryDirectories>$(Conanabseil_absl_examine_stackRootFolder)/lib;</Conanabseil_absl_examine_stackLibraryDirectories>
+    <Conanabseil_absl_examine_stackLibraries>absl_examine_stack.lib;</Conanabseil_absl_examine_stackLibraries>
+    <Conanabseil_absl_examine_stackSystemLibs></Conanabseil_absl_examine_stackSystemLibs>
+  </PropertyGroup>
+</Project>

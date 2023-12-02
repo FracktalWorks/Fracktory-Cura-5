@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <ConanrapidjsonRootFolder>C:/.conan/103e24/1</ConanrapidjsonRootFolder>
+    <ConanrapidjsonBinaryDirectories>$(ConanrapidjsonRootFolder)/bin;</ConanrapidjsonBinaryDirectories>
+    <ConanrapidjsonCompilerFlags></ConanrapidjsonCompilerFlags>
+    <ConanrapidjsonLinkerFlags></ConanrapidjsonLinkerFlags>
+    <ConanrapidjsonPreprocessorDefinitions></ConanrapidjsonPreprocessorDefinitions>
+    <ConanrapidjsonIncludeDirectories>$(ConanrapidjsonRootFolder)/include;</ConanrapidjsonIncludeDirectories>
+    <ConanrapidjsonResourceDirectories></ConanrapidjsonResourceDirectories>
+    <ConanrapidjsonLibraryDirectories>$(ConanrapidjsonRootFolder)/lib;</ConanrapidjsonLibraryDirectories>
+    <ConanrapidjsonLibraries></ConanrapidjsonLibraries>
+    <ConanrapidjsonSystemLibs></ConanrapidjsonSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_range-v3_range-v3-meta_props_imported)' != 'True'" Project="conan_range-v3_range-v3-meta.props"/>
+		<Import Condition="'$(conan_range-v3_range-v3-concepts_props_imported)' != 'True'" Project="conan_range-v3_range-v3-concepts.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_range-v3_props_imported>True</conan_range-v3_props_imported>
+	</PropertyGroup>
+</Project>

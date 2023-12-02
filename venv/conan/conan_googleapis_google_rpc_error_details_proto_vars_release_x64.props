@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangoogleapis_google_rpc_error_details_protoRootFolder>C:/.conan/99af4c/1</Conangoogleapis_google_rpc_error_details_protoRootFolder>
+    <Conangoogleapis_google_rpc_error_details_protoBinaryDirectories>$(Conangoogleapis_google_rpc_error_details_protoRootFolder)/bin;</Conangoogleapis_google_rpc_error_details_protoBinaryDirectories>
+    <Conangoogleapis_google_rpc_error_details_protoCompilerFlags></Conangoogleapis_google_rpc_error_details_protoCompilerFlags>
+    <Conangoogleapis_google_rpc_error_details_protoLinkerFlags></Conangoogleapis_google_rpc_error_details_protoLinkerFlags>
+    <Conangoogleapis_google_rpc_error_details_protoPreprocessorDefinitions></Conangoogleapis_google_rpc_error_details_protoPreprocessorDefinitions>
+    <Conangoogleapis_google_rpc_error_details_protoIncludeDirectories>$(Conangoogleapis_google_rpc_error_details_protoRootFolder)/include;</Conangoogleapis_google_rpc_error_details_protoIncludeDirectories>
+    <Conangoogleapis_google_rpc_error_details_protoResourceDirectories>$(Conangoogleapis_google_rpc_error_details_protoRootFolder)/res;</Conangoogleapis_google_rpc_error_details_protoResourceDirectories>
+    <Conangoogleapis_google_rpc_error_details_protoLibraryDirectories>$(Conangoogleapis_google_rpc_error_details_protoRootFolder)/lib;</Conangoogleapis_google_rpc_error_details_protoLibraryDirectories>
+    <Conangoogleapis_google_rpc_error_details_protoLibraries>google_rpc_error_details_proto.lib;</Conangoogleapis_google_rpc_error_details_protoLibraries>
+    <Conangoogleapis_google_rpc_error_details_protoSystemLibs></Conangoogleapis_google_rpc_error_details_protoSystemLibs>
+  </PropertyGroup>
+</Project>

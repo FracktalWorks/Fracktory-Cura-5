@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_cordz_update_scopeRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_cordz_update_scopeRootFolder>
+    <Conanabseil_absl_cordz_update_scopeBinaryDirectories>$(Conanabseil_absl_cordz_update_scopeRootFolder)/bin;</Conanabseil_absl_cordz_update_scopeBinaryDirectories>
+    <Conanabseil_absl_cordz_update_scopeCompilerFlags></Conanabseil_absl_cordz_update_scopeCompilerFlags>
+    <Conanabseil_absl_cordz_update_scopeLinkerFlags></Conanabseil_absl_cordz_update_scopeLinkerFlags>
+    <Conanabseil_absl_cordz_update_scopePreprocessorDefinitions></Conanabseil_absl_cordz_update_scopePreprocessorDefinitions>
+    <Conanabseil_absl_cordz_update_scopeIncludeDirectories>$(Conanabseil_absl_cordz_update_scopeRootFolder)/include;</Conanabseil_absl_cordz_update_scopeIncludeDirectories>
+    <Conanabseil_absl_cordz_update_scopeResourceDirectories></Conanabseil_absl_cordz_update_scopeResourceDirectories>
+    <Conanabseil_absl_cordz_update_scopeLibraryDirectories>$(Conanabseil_absl_cordz_update_scopeRootFolder)/lib;</Conanabseil_absl_cordz_update_scopeLibraryDirectories>
+    <Conanabseil_absl_cordz_update_scopeLibraries></Conanabseil_absl_cordz_update_scopeLibraries>
+    <Conanabseil_absl_cordz_update_scopeSystemLibs></Conanabseil_absl_cordz_update_scopeSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_flags_marshallingRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_flags_marshallingRootFolder>
+    <Conanabseil_absl_flags_marshallingBinaryDirectories>$(Conanabseil_absl_flags_marshallingRootFolder)/bin;</Conanabseil_absl_flags_marshallingBinaryDirectories>
+    <Conanabseil_absl_flags_marshallingCompilerFlags></Conanabseil_absl_flags_marshallingCompilerFlags>
+    <Conanabseil_absl_flags_marshallingLinkerFlags></Conanabseil_absl_flags_marshallingLinkerFlags>
+    <Conanabseil_absl_flags_marshallingPreprocessorDefinitions></Conanabseil_absl_flags_marshallingPreprocessorDefinitions>
+    <Conanabseil_absl_flags_marshallingIncludeDirectories>$(Conanabseil_absl_flags_marshallingRootFolder)/include;</Conanabseil_absl_flags_marshallingIncludeDirectories>
+    <Conanabseil_absl_flags_marshallingResourceDirectories></Conanabseil_absl_flags_marshallingResourceDirectories>
+    <Conanabseil_absl_flags_marshallingLibraryDirectories>$(Conanabseil_absl_flags_marshallingRootFolder)/lib;</Conanabseil_absl_flags_marshallingLibraryDirectories>
+    <Conanabseil_absl_flags_marshallingLibraries>absl_flags_marshalling.lib;</Conanabseil_absl_flags_marshallingLibraries>
+    <Conanabseil_absl_flags_marshallingSystemLibs></Conanabseil_absl_flags_marshallingSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_memoryRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_memoryRootFolder>
+    <Conanabseil_absl_memoryBinaryDirectories>$(Conanabseil_absl_memoryRootFolder)/bin;</Conanabseil_absl_memoryBinaryDirectories>
+    <Conanabseil_absl_memoryCompilerFlags></Conanabseil_absl_memoryCompilerFlags>
+    <Conanabseil_absl_memoryLinkerFlags></Conanabseil_absl_memoryLinkerFlags>
+    <Conanabseil_absl_memoryPreprocessorDefinitions></Conanabseil_absl_memoryPreprocessorDefinitions>
+    <Conanabseil_absl_memoryIncludeDirectories>$(Conanabseil_absl_memoryRootFolder)/include;</Conanabseil_absl_memoryIncludeDirectories>
+    <Conanabseil_absl_memoryResourceDirectories></Conanabseil_absl_memoryResourceDirectories>
+    <Conanabseil_absl_memoryLibraryDirectories>$(Conanabseil_absl_memoryRootFolder)/lib;</Conanabseil_absl_memoryLibraryDirectories>
+    <Conanabseil_absl_memoryLibraries></Conanabseil_absl_memoryLibraries>
+    <Conanabseil_absl_memorySystemLibs></Conanabseil_absl_memorySystemLibs>
+  </PropertyGroup>
+</Project>

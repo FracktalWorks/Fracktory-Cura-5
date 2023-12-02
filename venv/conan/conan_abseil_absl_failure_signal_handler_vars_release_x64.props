@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_failure_signal_handlerRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_failure_signal_handlerRootFolder>
+    <Conanabseil_absl_failure_signal_handlerBinaryDirectories>$(Conanabseil_absl_failure_signal_handlerRootFolder)/bin;</Conanabseil_absl_failure_signal_handlerBinaryDirectories>
+    <Conanabseil_absl_failure_signal_handlerCompilerFlags></Conanabseil_absl_failure_signal_handlerCompilerFlags>
+    <Conanabseil_absl_failure_signal_handlerLinkerFlags></Conanabseil_absl_failure_signal_handlerLinkerFlags>
+    <Conanabseil_absl_failure_signal_handlerPreprocessorDefinitions></Conanabseil_absl_failure_signal_handlerPreprocessorDefinitions>
+    <Conanabseil_absl_failure_signal_handlerIncludeDirectories>$(Conanabseil_absl_failure_signal_handlerRootFolder)/include;</Conanabseil_absl_failure_signal_handlerIncludeDirectories>
+    <Conanabseil_absl_failure_signal_handlerResourceDirectories></Conanabseil_absl_failure_signal_handlerResourceDirectories>
+    <Conanabseil_absl_failure_signal_handlerLibraryDirectories>$(Conanabseil_absl_failure_signal_handlerRootFolder)/lib;</Conanabseil_absl_failure_signal_handlerLibraryDirectories>
+    <Conanabseil_absl_failure_signal_handlerLibraries>absl_failure_signal_handler.lib;</Conanabseil_absl_failure_signal_handlerLibraries>
+    <Conanabseil_absl_failure_signal_handlerSystemLibs></Conanabseil_absl_failure_signal_handlerSystemLibs>
+  </PropertyGroup>
+</Project>

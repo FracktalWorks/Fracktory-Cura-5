@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangrpc_grpc_unsecureRootFolder>C:/.conan/1ae3ce/1</Conangrpc_grpc_unsecureRootFolder>
+    <Conangrpc_grpc_unsecureBinaryDirectories>$(Conangrpc_grpc_unsecureRootFolder)/bin;</Conangrpc_grpc_unsecureBinaryDirectories>
+    <Conangrpc_grpc_unsecureCompilerFlags></Conangrpc_grpc_unsecureCompilerFlags>
+    <Conangrpc_grpc_unsecureLinkerFlags></Conangrpc_grpc_unsecureLinkerFlags>
+    <Conangrpc_grpc_unsecurePreprocessorDefinitions></Conangrpc_grpc_unsecurePreprocessorDefinitions>
+    <Conangrpc_grpc_unsecureIncludeDirectories>$(Conangrpc_grpc_unsecureRootFolder)/include;</Conangrpc_grpc_unsecureIncludeDirectories>
+    <Conangrpc_grpc_unsecureResourceDirectories></Conangrpc_grpc_unsecureResourceDirectories>
+    <Conangrpc_grpc_unsecureLibraryDirectories>$(Conangrpc_grpc_unsecureRootFolder)/lib;</Conangrpc_grpc_unsecureLibraryDirectories>
+    <Conangrpc_grpc_unsecureLibraries>grpc_unsecure.lib;</Conangrpc_grpc_unsecureLibraries>
+    <Conangrpc_grpc_unsecureSystemLibs>crypt32.lib;ws2_32.lib;wsock32.lib;</Conangrpc_grpc_unsecureSystemLibs>
+  </PropertyGroup>
+</Project>

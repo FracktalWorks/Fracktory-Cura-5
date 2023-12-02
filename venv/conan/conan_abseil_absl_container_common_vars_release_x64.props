@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_container_commonRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_container_commonRootFolder>
+    <Conanabseil_absl_container_commonBinaryDirectories>$(Conanabseil_absl_container_commonRootFolder)/bin;</Conanabseil_absl_container_commonBinaryDirectories>
+    <Conanabseil_absl_container_commonCompilerFlags></Conanabseil_absl_container_commonCompilerFlags>
+    <Conanabseil_absl_container_commonLinkerFlags></Conanabseil_absl_container_commonLinkerFlags>
+    <Conanabseil_absl_container_commonPreprocessorDefinitions></Conanabseil_absl_container_commonPreprocessorDefinitions>
+    <Conanabseil_absl_container_commonIncludeDirectories>$(Conanabseil_absl_container_commonRootFolder)/include;</Conanabseil_absl_container_commonIncludeDirectories>
+    <Conanabseil_absl_container_commonResourceDirectories></Conanabseil_absl_container_commonResourceDirectories>
+    <Conanabseil_absl_container_commonLibraryDirectories>$(Conanabseil_absl_container_commonRootFolder)/lib;</Conanabseil_absl_container_commonLibraryDirectories>
+    <Conanabseil_absl_container_commonLibraries></Conanabseil_absl_container_commonLibraries>
+    <Conanabseil_absl_container_commonSystemLibs></Conanabseil_absl_container_commonSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_hashtablez_samplerRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_hashtablez_samplerRootFolder>
+    <Conanabseil_absl_hashtablez_samplerBinaryDirectories>$(Conanabseil_absl_hashtablez_samplerRootFolder)/bin;</Conanabseil_absl_hashtablez_samplerBinaryDirectories>
+    <Conanabseil_absl_hashtablez_samplerCompilerFlags></Conanabseil_absl_hashtablez_samplerCompilerFlags>
+    <Conanabseil_absl_hashtablez_samplerLinkerFlags></Conanabseil_absl_hashtablez_samplerLinkerFlags>
+    <Conanabseil_absl_hashtablez_samplerPreprocessorDefinitions></Conanabseil_absl_hashtablez_samplerPreprocessorDefinitions>
+    <Conanabseil_absl_hashtablez_samplerIncludeDirectories>$(Conanabseil_absl_hashtablez_samplerRootFolder)/include;</Conanabseil_absl_hashtablez_samplerIncludeDirectories>
+    <Conanabseil_absl_hashtablez_samplerResourceDirectories></Conanabseil_absl_hashtablez_samplerResourceDirectories>
+    <Conanabseil_absl_hashtablez_samplerLibraryDirectories>$(Conanabseil_absl_hashtablez_samplerRootFolder)/lib;</Conanabseil_absl_hashtablez_samplerLibraryDirectories>
+    <Conanabseil_absl_hashtablez_samplerLibraries>absl_hashtablez_sampler.lib;</Conanabseil_absl_hashtablez_samplerLibraries>
+    <Conanabseil_absl_hashtablez_samplerSystemLibs></Conanabseil_absl_hashtablez_samplerSystemLibs>
+  </PropertyGroup>
+</Project>

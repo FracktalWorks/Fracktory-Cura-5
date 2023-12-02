@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_algorithm_containerRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_algorithm_containerRootFolder>
+    <Conanabseil_absl_algorithm_containerBinaryDirectories>$(Conanabseil_absl_algorithm_containerRootFolder)/bin;</Conanabseil_absl_algorithm_containerBinaryDirectories>
+    <Conanabseil_absl_algorithm_containerCompilerFlags></Conanabseil_absl_algorithm_containerCompilerFlags>
+    <Conanabseil_absl_algorithm_containerLinkerFlags></Conanabseil_absl_algorithm_containerLinkerFlags>
+    <Conanabseil_absl_algorithm_containerPreprocessorDefinitions></Conanabseil_absl_algorithm_containerPreprocessorDefinitions>
+    <Conanabseil_absl_algorithm_containerIncludeDirectories>$(Conanabseil_absl_algorithm_containerRootFolder)/include;</Conanabseil_absl_algorithm_containerIncludeDirectories>
+    <Conanabseil_absl_algorithm_containerResourceDirectories></Conanabseil_absl_algorithm_containerResourceDirectories>
+    <Conanabseil_absl_algorithm_containerLibraryDirectories>$(Conanabseil_absl_algorithm_containerRootFolder)/lib;</Conanabseil_absl_algorithm_containerLibraryDirectories>
+    <Conanabseil_absl_algorithm_containerLibraries></Conanabseil_absl_algorithm_containerLibraries>
+    <Conanabseil_absl_algorithm_containerSystemLibs></Conanabseil_absl_algorithm_containerSystemLibs>
+  </PropertyGroup>
+</Project>

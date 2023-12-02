@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_abseil_absl_bits_props_imported)' != 'True'" Project="conan_abseil_absl_bits.props"/>
+    <Import Condition="'$(conan_abseil_absl_compressed_tuple_props_imported)' != 'True'" Project="conan_abseil_absl_compressed_tuple.props"/>
+    <Import Condition="'$(conan_abseil_absl_config_props_imported)' != 'True'" Project="conan_abseil_absl_config.props"/>
+    <Import Condition="'$(conan_abseil_absl_container_common_props_imported)' != 'True'" Project="conan_abseil_absl_container_common.props"/>
+    <Import Condition="'$(conan_abseil_absl_container_memory_props_imported)' != 'True'" Project="conan_abseil_absl_container_memory.props"/>
+    <Import Condition="'$(conan_abseil_absl_core_headers_props_imported)' != 'True'" Project="conan_abseil_absl_core_headers.props"/>
+    <Import Condition="'$(conan_abseil_absl_endian_props_imported)' != 'True'" Project="conan_abseil_absl_endian.props"/>
+    <Import Condition="'$(conan_abseil_absl_hash_policy_traits_props_imported)' != 'True'" Project="conan_abseil_absl_hash_policy_traits.props"/>
+    <Import Condition="'$(conan_abseil_absl_hashtable_debug_hooks_props_imported)' != 'True'" Project="conan_abseil_absl_hashtable_debug_hooks.props"/>
+    <Import Condition="'$(conan_abseil_absl_memory_props_imported)' != 'True'" Project="conan_abseil_absl_memory.props"/>
+    <Import Condition="'$(conan_abseil_absl_meta_props_imported)' != 'True'" Project="conan_abseil_absl_meta.props"/>
+    <Import Condition="'$(conan_abseil_absl_optional_props_imported)' != 'True'" Project="conan_abseil_absl_optional.props"/>
+    <Import Condition="'$(conan_abseil_absl_prefetch_props_imported)' != 'True'" Project="conan_abseil_absl_prefetch.props"/>
+    <Import Condition="'$(conan_abseil_absl_utility_props_imported)' != 'True'" Project="conan_abseil_absl_utility.props"/>
+    <Import Condition="'$(conan_abseil_absl_hashtablez_sampler_props_imported)' != 'True'" Project="conan_abseil_absl_hashtablez_sampler.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_abseil_absl_raw_hash_set_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanabseil_absl_raw_hash_setBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_raw_hash_setIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_raw_hash_setPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_raw_hash_setCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanabseil_absl_raw_hash_setLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanabseil_absl_raw_hash_setLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanabseil_absl_raw_hash_setSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanabseil_absl_raw_hash_setLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_raw_hash_setIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_raw_hash_setIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_raw_hash_setPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_raw_hash_setCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

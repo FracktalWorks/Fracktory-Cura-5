@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangrpc_grpc___reflectionRootFolder>C:/.conan/1ae3ce/1</Conangrpc_grpc___reflectionRootFolder>
+    <Conangrpc_grpc___reflectionBinaryDirectories>$(Conangrpc_grpc___reflectionRootFolder)/bin;</Conangrpc_grpc___reflectionBinaryDirectories>
+    <Conangrpc_grpc___reflectionCompilerFlags></Conangrpc_grpc___reflectionCompilerFlags>
+    <Conangrpc_grpc___reflectionLinkerFlags></Conangrpc_grpc___reflectionLinkerFlags>
+    <Conangrpc_grpc___reflectionPreprocessorDefinitions></Conangrpc_grpc___reflectionPreprocessorDefinitions>
+    <Conangrpc_grpc___reflectionIncludeDirectories>$(Conangrpc_grpc___reflectionRootFolder)/include;</Conangrpc_grpc___reflectionIncludeDirectories>
+    <Conangrpc_grpc___reflectionResourceDirectories></Conangrpc_grpc___reflectionResourceDirectories>
+    <Conangrpc_grpc___reflectionLibraryDirectories>$(Conangrpc_grpc___reflectionRootFolder)/lib;</Conangrpc_grpc___reflectionLibraryDirectories>
+    <Conangrpc_grpc___reflectionLibraries>grpc++_reflection.lib;</Conangrpc_grpc___reflectionLibraries>
+    <Conangrpc_grpc___reflectionSystemLibs>crypt32.lib;ws2_32.lib;wsock32.lib;</Conangrpc_grpc___reflectionSystemLibs>
+  </PropertyGroup>
+</Project>

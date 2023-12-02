@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_arcus_props_imported)' != 'True'" Project="conan_arcus.props"/>
+    <Import Condition="'$(conan_asio-grpc_props_imported)' != 'True'" Project="conan_asio-grpc.props"/>
+    <Import Condition="'$(conan_grpc_props_imported)' != 'True'" Project="conan_grpc.props"/>
+    <Import Condition="'$(conan_curaengine_grpc_definitions_props_imported)' != 'True'" Project="conan_curaengine_grpc_definitions.props"/>
+    <Import Condition="'$(conan_clipper_props_imported)' != 'True'" Project="conan_clipper.props"/>
+    <Import Condition="'$(conan_boost_props_imported)' != 'True'" Project="conan_boost.props"/>
+    <Import Condition="'$(conan_rapidjson_props_imported)' != 'True'" Project="conan_rapidjson.props"/>
+    <Import Condition="'$(conan_stb_props_imported)' != 'True'" Project="conan_stb.props"/>
+    <Import Condition="'$(conan_spdlog_props_imported)' != 'True'" Project="conan_spdlog.props"/>
+    <Import Condition="'$(conan_fmt_props_imported)' != 'True'" Project="conan_fmt.props"/>
+    <Import Condition="'$(conan_range-v3_props_imported)' != 'True'" Project="conan_range-v3.props"/>
+    <Import Condition="'$(conan_scripta_props_imported)' != 'True'" Project="conan_scripta.props"/>
+    <Import Condition="'$(conan_neargye-semver_props_imported)' != 'True'" Project="conan_neargye-semver.props"/>
+    <Import Condition="'$(conan_protobuf_props_imported)' != 'True'" Project="conan_protobuf.props"/>
+    <Import Condition="'$(conan_zlib_props_imported)' != 'True'" Project="conan_zlib.props"/>
+    <Import Condition="'$(conan_openssl_props_imported)' != 'True'" Project="conan_openssl.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_curaengine_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(ConancuraengineBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ConancuraengineIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(ConancuraenginePreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(ConancuraengineCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ConancuraengineLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(ConancuraengineLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(ConancuraengineSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(ConancuraengineLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(ConancuraengineIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(ConancuraengineIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(ConancuraenginePreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(ConancuraengineCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

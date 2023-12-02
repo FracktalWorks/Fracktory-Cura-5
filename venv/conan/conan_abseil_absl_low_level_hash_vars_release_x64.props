@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_low_level_hashRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_low_level_hashRootFolder>
+    <Conanabseil_absl_low_level_hashBinaryDirectories>$(Conanabseil_absl_low_level_hashRootFolder)/bin;</Conanabseil_absl_low_level_hashBinaryDirectories>
+    <Conanabseil_absl_low_level_hashCompilerFlags></Conanabseil_absl_low_level_hashCompilerFlags>
+    <Conanabseil_absl_low_level_hashLinkerFlags></Conanabseil_absl_low_level_hashLinkerFlags>
+    <Conanabseil_absl_low_level_hashPreprocessorDefinitions></Conanabseil_absl_low_level_hashPreprocessorDefinitions>
+    <Conanabseil_absl_low_level_hashIncludeDirectories>$(Conanabseil_absl_low_level_hashRootFolder)/include;</Conanabseil_absl_low_level_hashIncludeDirectories>
+    <Conanabseil_absl_low_level_hashResourceDirectories></Conanabseil_absl_low_level_hashResourceDirectories>
+    <Conanabseil_absl_low_level_hashLibraryDirectories>$(Conanabseil_absl_low_level_hashRootFolder)/lib;</Conanabseil_absl_low_level_hashLibraryDirectories>
+    <Conanabseil_absl_low_level_hashLibraries>absl_low_level_hash.lib;</Conanabseil_absl_low_level_hashLibraries>
+    <Conanabseil_absl_low_level_hashSystemLibs></Conanabseil_absl_low_level_hashSystemLibs>
+  </PropertyGroup>
+</Project>

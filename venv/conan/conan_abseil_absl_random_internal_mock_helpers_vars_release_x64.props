@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_mock_helpersRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_mock_helpersRootFolder>
+    <Conanabseil_absl_random_internal_mock_helpersBinaryDirectories>$(Conanabseil_absl_random_internal_mock_helpersRootFolder)/bin;</Conanabseil_absl_random_internal_mock_helpersBinaryDirectories>
+    <Conanabseil_absl_random_internal_mock_helpersCompilerFlags></Conanabseil_absl_random_internal_mock_helpersCompilerFlags>
+    <Conanabseil_absl_random_internal_mock_helpersLinkerFlags></Conanabseil_absl_random_internal_mock_helpersLinkerFlags>
+    <Conanabseil_absl_random_internal_mock_helpersPreprocessorDefinitions></Conanabseil_absl_random_internal_mock_helpersPreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_mock_helpersIncludeDirectories>$(Conanabseil_absl_random_internal_mock_helpersRootFolder)/include;</Conanabseil_absl_random_internal_mock_helpersIncludeDirectories>
+    <Conanabseil_absl_random_internal_mock_helpersResourceDirectories></Conanabseil_absl_random_internal_mock_helpersResourceDirectories>
+    <Conanabseil_absl_random_internal_mock_helpersLibraryDirectories>$(Conanabseil_absl_random_internal_mock_helpersRootFolder)/lib;</Conanabseil_absl_random_internal_mock_helpersLibraryDirectories>
+    <Conanabseil_absl_random_internal_mock_helpersLibraries></Conanabseil_absl_random_internal_mock_helpersLibraries>
+    <Conanabseil_absl_random_internal_mock_helpersSystemLibs></Conanabseil_absl_random_internal_mock_helpersSystemLibs>
+  </PropertyGroup>
+</Project>

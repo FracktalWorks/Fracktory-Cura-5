@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanasio-grpcRootFolder>C:/.conan/0890d9/1</Conanasio-grpcRootFolder>
+    <Conanasio-grpcBinaryDirectories></Conanasio-grpcBinaryDirectories>
+    <Conanasio-grpcCompilerFlags></Conanasio-grpcCompilerFlags>
+    <Conanasio-grpcLinkerFlags></Conanasio-grpcLinkerFlags>
+    <Conanasio-grpcPreprocessorDefinitions>AGRPC_BOOST_ASIO;</Conanasio-grpcPreprocessorDefinitions>
+    <Conanasio-grpcIncludeDirectories>$(Conanasio-grpcRootFolder)/include;</Conanasio-grpcIncludeDirectories>
+    <Conanasio-grpcResourceDirectories></Conanasio-grpcResourceDirectories>
+    <Conanasio-grpcLibraryDirectories></Conanasio-grpcLibraryDirectories>
+    <Conanasio-grpcLibraries></Conanasio-grpcLibraries>
+    <Conanasio-grpcSystemLibs></Conanasio-grpcSystemLibs>
+  </PropertyGroup>
+</Project>

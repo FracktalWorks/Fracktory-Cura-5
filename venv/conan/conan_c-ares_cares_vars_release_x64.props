@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanc-ares_caresRootFolder>C:/.conan/b817d0/1</Conanc-ares_caresRootFolder>
+    <Conanc-ares_caresBinaryDirectories>$(Conanc-ares_caresRootFolder)/bin;</Conanc-ares_caresBinaryDirectories>
+    <Conanc-ares_caresCompilerFlags></Conanc-ares_caresCompilerFlags>
+    <Conanc-ares_caresLinkerFlags></Conanc-ares_caresLinkerFlags>
+    <Conanc-ares_caresPreprocessorDefinitions>CARES_STATICLIB;</Conanc-ares_caresPreprocessorDefinitions>
+    <Conanc-ares_caresIncludeDirectories>$(Conanc-ares_caresRootFolder)/include;</Conanc-ares_caresIncludeDirectories>
+    <Conanc-ares_caresResourceDirectories></Conanc-ares_caresResourceDirectories>
+    <Conanc-ares_caresLibraryDirectories>$(Conanc-ares_caresRootFolder)/lib;</Conanc-ares_caresLibraryDirectories>
+    <Conanc-ares_caresLibraries>cares.lib;</Conanc-ares_caresLibraries>
+    <Conanc-ares_caresSystemLibs>ws2_32.lib;advapi32.lib;iphlpapi.lib;</Conanc-ares_caresSystemLibs>
+  </PropertyGroup>
+</Project>

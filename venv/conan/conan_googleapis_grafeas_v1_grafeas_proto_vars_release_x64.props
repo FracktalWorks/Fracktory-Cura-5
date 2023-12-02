@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangoogleapis_grafeas_v1_grafeas_protoRootFolder>C:/.conan/99af4c/1</Conangoogleapis_grafeas_v1_grafeas_protoRootFolder>
+    <Conangoogleapis_grafeas_v1_grafeas_protoBinaryDirectories>$(Conangoogleapis_grafeas_v1_grafeas_protoRootFolder)/bin;</Conangoogleapis_grafeas_v1_grafeas_protoBinaryDirectories>
+    <Conangoogleapis_grafeas_v1_grafeas_protoCompilerFlags></Conangoogleapis_grafeas_v1_grafeas_protoCompilerFlags>
+    <Conangoogleapis_grafeas_v1_grafeas_protoLinkerFlags></Conangoogleapis_grafeas_v1_grafeas_protoLinkerFlags>
+    <Conangoogleapis_grafeas_v1_grafeas_protoPreprocessorDefinitions></Conangoogleapis_grafeas_v1_grafeas_protoPreprocessorDefinitions>
+    <Conangoogleapis_grafeas_v1_grafeas_protoIncludeDirectories>$(Conangoogleapis_grafeas_v1_grafeas_protoRootFolder)/include;</Conangoogleapis_grafeas_v1_grafeas_protoIncludeDirectories>
+    <Conangoogleapis_grafeas_v1_grafeas_protoResourceDirectories>$(Conangoogleapis_grafeas_v1_grafeas_protoRootFolder)/res;</Conangoogleapis_grafeas_v1_grafeas_protoResourceDirectories>
+    <Conangoogleapis_grafeas_v1_grafeas_protoLibraryDirectories>$(Conangoogleapis_grafeas_v1_grafeas_protoRootFolder)/lib;</Conangoogleapis_grafeas_v1_grafeas_protoLibraryDirectories>
+    <Conangoogleapis_grafeas_v1_grafeas_protoLibraries>grafeas_v1_grafeas_proto.lib;</Conangoogleapis_grafeas_v1_grafeas_protoLibraries>
+    <Conangoogleapis_grafeas_v1_grafeas_protoSystemLibs></Conangoogleapis_grafeas_v1_grafeas_protoSystemLibs>
+  </PropertyGroup>
+</Project>

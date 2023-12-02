@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_exponential_biasedRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_exponential_biasedRootFolder>
+    <Conanabseil_absl_exponential_biasedBinaryDirectories>$(Conanabseil_absl_exponential_biasedRootFolder)/bin;</Conanabseil_absl_exponential_biasedBinaryDirectories>
+    <Conanabseil_absl_exponential_biasedCompilerFlags></Conanabseil_absl_exponential_biasedCompilerFlags>
+    <Conanabseil_absl_exponential_biasedLinkerFlags></Conanabseil_absl_exponential_biasedLinkerFlags>
+    <Conanabseil_absl_exponential_biasedPreprocessorDefinitions></Conanabseil_absl_exponential_biasedPreprocessorDefinitions>
+    <Conanabseil_absl_exponential_biasedIncludeDirectories>$(Conanabseil_absl_exponential_biasedRootFolder)/include;</Conanabseil_absl_exponential_biasedIncludeDirectories>
+    <Conanabseil_absl_exponential_biasedResourceDirectories></Conanabseil_absl_exponential_biasedResourceDirectories>
+    <Conanabseil_absl_exponential_biasedLibraryDirectories>$(Conanabseil_absl_exponential_biasedRootFolder)/lib;</Conanabseil_absl_exponential_biasedLibraryDirectories>
+    <Conanabseil_absl_exponential_biasedLibraries>absl_exponential_biased.lib;</Conanabseil_absl_exponential_biasedLibraries>
+    <Conanabseil_absl_exponential_biasedSystemLibs></Conanabseil_absl_exponential_biasedSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <ConanuraniumRootFolder>C:/.conan/d7d5bd/1</ConanuraniumRootFolder>
+    <ConanuraniumBinaryDirectories>$(ConanuraniumRootFolder)/bin;</ConanuraniumBinaryDirectories>
+    <ConanuraniumCompilerFlags></ConanuraniumCompilerFlags>
+    <ConanuraniumLinkerFlags></ConanuraniumLinkerFlags>
+    <ConanuraniumPreprocessorDefinitions></ConanuraniumPreprocessorDefinitions>
+    <ConanuraniumIncludeDirectories>$(ConanuraniumRootFolder)/include;</ConanuraniumIncludeDirectories>
+    <ConanuraniumResourceDirectories>$(ConanuraniumRootFolder)/resources;$(ConanuraniumRootFolder)/plugins;$(ConanuraniumRootFolder)/pip_requirements;</ConanuraniumResourceDirectories>
+    <ConanuraniumLibraryDirectories>$(ConanuraniumRootFolder)/site-packages/UM;</ConanuraniumLibraryDirectories>
+    <ConanuraniumLibraries></ConanuraniumLibraries>
+    <ConanuraniumSystemLibs></ConanuraniumSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_numericRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_numericRootFolder>
+    <Conanabseil_absl_numericBinaryDirectories>$(Conanabseil_absl_numericRootFolder)/bin;</Conanabseil_absl_numericBinaryDirectories>
+    <Conanabseil_absl_numericCompilerFlags></Conanabseil_absl_numericCompilerFlags>
+    <Conanabseil_absl_numericLinkerFlags></Conanabseil_absl_numericLinkerFlags>
+    <Conanabseil_absl_numericPreprocessorDefinitions></Conanabseil_absl_numericPreprocessorDefinitions>
+    <Conanabseil_absl_numericIncludeDirectories>$(Conanabseil_absl_numericRootFolder)/include;</Conanabseil_absl_numericIncludeDirectories>
+    <Conanabseil_absl_numericResourceDirectories></Conanabseil_absl_numericResourceDirectories>
+    <Conanabseil_absl_numericLibraryDirectories>$(Conanabseil_absl_numericRootFolder)/lib;</Conanabseil_absl_numericLibraryDirectories>
+    <Conanabseil_absl_numericLibraries></Conanabseil_absl_numericLibraries>
+    <Conanabseil_absl_numericSystemLibs></Conanabseil_absl_numericSystemLibs>
+  </PropertyGroup>
+</Project>

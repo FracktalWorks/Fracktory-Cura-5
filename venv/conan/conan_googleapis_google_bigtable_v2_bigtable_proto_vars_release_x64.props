@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangoogleapis_google_bigtable_v2_bigtable_protoRootFolder>C:/.conan/99af4c/1</Conangoogleapis_google_bigtable_v2_bigtable_protoRootFolder>
+    <Conangoogleapis_google_bigtable_v2_bigtable_protoBinaryDirectories>$(Conangoogleapis_google_bigtable_v2_bigtable_protoRootFolder)/bin;</Conangoogleapis_google_bigtable_v2_bigtable_protoBinaryDirectories>
+    <Conangoogleapis_google_bigtable_v2_bigtable_protoCompilerFlags></Conangoogleapis_google_bigtable_v2_bigtable_protoCompilerFlags>
+    <Conangoogleapis_google_bigtable_v2_bigtable_protoLinkerFlags></Conangoogleapis_google_bigtable_v2_bigtable_protoLinkerFlags>
+    <Conangoogleapis_google_bigtable_v2_bigtable_protoPreprocessorDefinitions></Conangoogleapis_google_bigtable_v2_bigtable_protoPreprocessorDefinitions>
+    <Conangoogleapis_google_bigtable_v2_bigtable_protoIncludeDirectories>$(Conangoogleapis_google_bigtable_v2_bigtable_protoRootFolder)/include;</Conangoogleapis_google_bigtable_v2_bigtable_protoIncludeDirectories>
+    <Conangoogleapis_google_bigtable_v2_bigtable_protoResourceDirectories>$(Conangoogleapis_google_bigtable_v2_bigtable_protoRootFolder)/res;</Conangoogleapis_google_bigtable_v2_bigtable_protoResourceDirectories>
+    <Conangoogleapis_google_bigtable_v2_bigtable_protoLibraryDirectories>$(Conangoogleapis_google_bigtable_v2_bigtable_protoRootFolder)/lib;</Conangoogleapis_google_bigtable_v2_bigtable_protoLibraryDirectories>
+    <Conangoogleapis_google_bigtable_v2_bigtable_protoLibraries>google_bigtable_v2_bigtable_proto.lib;</Conangoogleapis_google_bigtable_v2_bigtable_protoLibraries>
+    <Conangoogleapis_google_bigtable_v2_bigtable_protoSystemLibs></Conangoogleapis_google_bigtable_v2_bigtable_protoSystemLibs>
+  </PropertyGroup>
+</Project>

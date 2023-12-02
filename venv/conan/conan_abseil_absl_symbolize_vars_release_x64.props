@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_symbolizeRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_symbolizeRootFolder>
+    <Conanabseil_absl_symbolizeBinaryDirectories>$(Conanabseil_absl_symbolizeRootFolder)/bin;</Conanabseil_absl_symbolizeBinaryDirectories>
+    <Conanabseil_absl_symbolizeCompilerFlags></Conanabseil_absl_symbolizeCompilerFlags>
+    <Conanabseil_absl_symbolizeLinkerFlags></Conanabseil_absl_symbolizeLinkerFlags>
+    <Conanabseil_absl_symbolizePreprocessorDefinitions></Conanabseil_absl_symbolizePreprocessorDefinitions>
+    <Conanabseil_absl_symbolizeIncludeDirectories>$(Conanabseil_absl_symbolizeRootFolder)/include;</Conanabseil_absl_symbolizeIncludeDirectories>
+    <Conanabseil_absl_symbolizeResourceDirectories></Conanabseil_absl_symbolizeResourceDirectories>
+    <Conanabseil_absl_symbolizeLibraryDirectories>$(Conanabseil_absl_symbolizeRootFolder)/lib;</Conanabseil_absl_symbolizeLibraryDirectories>
+    <Conanabseil_absl_symbolizeLibraries>absl_symbolize.lib;</Conanabseil_absl_symbolizeLibraries>
+    <Conanabseil_absl_symbolizeSystemLibs>dbghelp.lib;</Conanabseil_absl_symbolizeSystemLibs>
+  </PropertyGroup>
+</Project>

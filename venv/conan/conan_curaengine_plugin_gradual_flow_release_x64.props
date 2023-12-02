@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_protobuf_props_imported)' != 'True'" Project="conan_protobuf.props"/>
+    <Import Condition="'$(conan_boost_props_imported)' != 'True'" Project="conan_boost.props"/>
+    <Import Condition="'$(conan_asio-grpc_props_imported)' != 'True'" Project="conan_asio-grpc.props"/>
+    <Import Condition="'$(conan_openssl_props_imported)' != 'True'" Project="conan_openssl.props"/>
+    <Import Condition="'$(conan_spdlog_props_imported)' != 'True'" Project="conan_spdlog.props"/>
+    <Import Condition="'$(conan_docopt_cpp_props_imported)' != 'True'" Project="conan_docopt_cpp.props"/>
+    <Import Condition="'$(conan_range-v3_props_imported)' != 'True'" Project="conan_range-v3.props"/>
+    <Import Condition="'$(conan_clipper_props_imported)' != 'True'" Project="conan_clipper.props"/>
+    <Import Condition="'$(conan_ctre_props_imported)' != 'True'" Project="conan_ctre.props"/>
+    <Import Condition="'$(conan_neargye-semver_props_imported)' != 'True'" Project="conan_neargye-semver.props"/>
+    <Import Condition="'$(conan_curaengine_grpc_definitions_props_imported)' != 'True'" Project="conan_curaengine_grpc_definitions.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_curaengine_plugin_gradual_flow_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conancuraengine_plugin_gradual_flowBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conancuraengine_plugin_gradual_flowIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conancuraengine_plugin_gradual_flowPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conancuraengine_plugin_gradual_flowCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conancuraengine_plugin_gradual_flowLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conancuraengine_plugin_gradual_flowLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conancuraengine_plugin_gradual_flowSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conancuraengine_plugin_gradual_flowLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conancuraengine_plugin_gradual_flowIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conancuraengine_plugin_gradual_flowIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conancuraengine_plugin_gradual_flowPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conancuraengine_plugin_gradual_flowCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

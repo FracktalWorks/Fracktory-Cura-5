@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conancuraengine_grpc_definitionsRootFolder>C:/.conan/dd754d/1</Conancuraengine_grpc_definitionsRootFolder>
+    <Conancuraengine_grpc_definitionsBinaryDirectories>$(Conancuraengine_grpc_definitionsRootFolder)/bin;</Conancuraengine_grpc_definitionsBinaryDirectories>
+    <Conancuraengine_grpc_definitionsCompilerFlags></Conancuraengine_grpc_definitionsCompilerFlags>
+    <Conancuraengine_grpc_definitionsLinkerFlags></Conancuraengine_grpc_definitionsLinkerFlags>
+    <Conancuraengine_grpc_definitionsPreprocessorDefinitions></Conancuraengine_grpc_definitionsPreprocessorDefinitions>
+    <Conancuraengine_grpc_definitionsIncludeDirectories>$(Conancuraengine_grpc_definitionsRootFolder)/include;</Conancuraengine_grpc_definitionsIncludeDirectories>
+    <Conancuraengine_grpc_definitionsResourceDirectories></Conancuraengine_grpc_definitionsResourceDirectories>
+    <Conancuraengine_grpc_definitionsLibraryDirectories>$(Conancuraengine_grpc_definitionsRootFolder)/lib;</Conancuraengine_grpc_definitionsLibraryDirectories>
+    <Conancuraengine_grpc_definitionsLibraries>curaengine_grpc_definitions.lib;</Conancuraengine_grpc_definitionsLibraries>
+    <Conancuraengine_grpc_definitionsSystemLibs></Conancuraengine_grpc_definitionsSystemLibs>
+  </PropertyGroup>
+</Project>

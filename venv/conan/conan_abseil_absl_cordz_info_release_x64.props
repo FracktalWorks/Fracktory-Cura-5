@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_abseil_absl_base_props_imported)' != 'True'" Project="conan_abseil_absl_base.props"/>
+    <Import Condition="'$(conan_abseil_absl_config_props_imported)' != 'True'" Project="conan_abseil_absl_config.props"/>
+    <Import Condition="'$(conan_abseil_absl_cord_internal_props_imported)' != 'True'" Project="conan_abseil_absl_cord_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_cordz_functions_props_imported)' != 'True'" Project="conan_abseil_absl_cordz_functions.props"/>
+    <Import Condition="'$(conan_abseil_absl_cordz_handle_props_imported)' != 'True'" Project="conan_abseil_absl_cordz_handle.props"/>
+    <Import Condition="'$(conan_abseil_absl_cordz_statistics_props_imported)' != 'True'" Project="conan_abseil_absl_cordz_statistics.props"/>
+    <Import Condition="'$(conan_abseil_absl_cordz_update_tracker_props_imported)' != 'True'" Project="conan_abseil_absl_cordz_update_tracker.props"/>
+    <Import Condition="'$(conan_abseil_absl_core_headers_props_imported)' != 'True'" Project="conan_abseil_absl_core_headers.props"/>
+    <Import Condition="'$(conan_abseil_absl_inlined_vector_props_imported)' != 'True'" Project="conan_abseil_absl_inlined_vector.props"/>
+    <Import Condition="'$(conan_abseil_absl_span_props_imported)' != 'True'" Project="conan_abseil_absl_span.props"/>
+    <Import Condition="'$(conan_abseil_absl_raw_logging_internal_props_imported)' != 'True'" Project="conan_abseil_absl_raw_logging_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_stacktrace_props_imported)' != 'True'" Project="conan_abseil_absl_stacktrace.props"/>
+    <Import Condition="'$(conan_abseil_absl_synchronization_props_imported)' != 'True'" Project="conan_abseil_absl_synchronization.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_abseil_absl_cordz_info_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanabseil_absl_cordz_infoBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_cordz_infoIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_cordz_infoPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_cordz_infoCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanabseil_absl_cordz_infoLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanabseil_absl_cordz_infoLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanabseil_absl_cordz_infoSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanabseil_absl_cordz_infoLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_cordz_infoIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_cordz_infoIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_cordz_infoPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_cordz_infoCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

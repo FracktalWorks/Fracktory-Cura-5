@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_grpc_address_sorting_props_imported)' != 'True'" Project="conan_grpc_address_sorting.props"/>
+    <Import Condition="'$(conan_grpc_gpr_props_imported)' != 'True'" Project="conan_grpc_gpr.props"/>
+    <Import Condition="'$(conan_grpc_upb_props_imported)' != 'True'" Project="conan_grpc_upb.props"/>
+    <Import Condition="'$(conan_abseil_absl_bind_front_props_imported)' != 'True'" Project="conan_abseil_absl_bind_front.props"/>
+    <Import Condition="'$(conan_abseil_absl_flat_hash_map_props_imported)' != 'True'" Project="conan_abseil_absl_flat_hash_map.props"/>
+    <Import Condition="'$(conan_abseil_absl_inlined_vector_props_imported)' != 'True'" Project="conan_abseil_absl_inlined_vector.props"/>
+    <Import Condition="'$(conan_abseil_absl_statusor_props_imported)' != 'True'" Project="conan_abseil_absl_statusor.props"/>
+    <Import Condition="'$(conan_abseil_absl_random_random_props_imported)' != 'True'" Project="conan_abseil_absl_random_random.props"/>
+    <Import Condition="'$(conan_c-ares_cares_props_imported)' != 'True'" Project="conan_c-ares_cares.props"/>
+    <Import Condition="'$(conan_openssl_crypto_props_imported)' != 'True'" Project="conan_openssl_crypto.props"/>
+    <Import Condition="'$(conan_openssl_ssl_props_imported)' != 'True'" Project="conan_openssl_ssl.props"/>
+    <Import Condition="'$(conan_re2_props_imported)' != 'True'" Project="conan_re2.props"/>
+    <Import Condition="'$(conan_zlib_props_imported)' != 'True'" Project="conan_zlib.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_grpc__grpc_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conangrpc__grpcBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conangrpc__grpcIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conangrpc__grpcPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conangrpc__grpcCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conangrpc__grpcLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conangrpc__grpcLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conangrpc__grpcSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conangrpc__grpcLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conangrpc__grpcIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conangrpc__grpcIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conangrpc__grpcPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conangrpc__grpcCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

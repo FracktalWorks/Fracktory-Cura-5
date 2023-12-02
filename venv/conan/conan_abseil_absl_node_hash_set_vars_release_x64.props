@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_node_hash_setRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_node_hash_setRootFolder>
+    <Conanabseil_absl_node_hash_setBinaryDirectories>$(Conanabseil_absl_node_hash_setRootFolder)/bin;</Conanabseil_absl_node_hash_setBinaryDirectories>
+    <Conanabseil_absl_node_hash_setCompilerFlags></Conanabseil_absl_node_hash_setCompilerFlags>
+    <Conanabseil_absl_node_hash_setLinkerFlags></Conanabseil_absl_node_hash_setLinkerFlags>
+    <Conanabseil_absl_node_hash_setPreprocessorDefinitions></Conanabseil_absl_node_hash_setPreprocessorDefinitions>
+    <Conanabseil_absl_node_hash_setIncludeDirectories>$(Conanabseil_absl_node_hash_setRootFolder)/include;</Conanabseil_absl_node_hash_setIncludeDirectories>
+    <Conanabseil_absl_node_hash_setResourceDirectories></Conanabseil_absl_node_hash_setResourceDirectories>
+    <Conanabseil_absl_node_hash_setLibraryDirectories>$(Conanabseil_absl_node_hash_setRootFolder)/lib;</Conanabseil_absl_node_hash_setLibraryDirectories>
+    <Conanabseil_absl_node_hash_setLibraries></Conanabseil_absl_node_hash_setLibraries>
+    <Conanabseil_absl_node_hash_setSystemLibs></Conanabseil_absl_node_hash_setSystemLibs>
+  </PropertyGroup>
+</Project>

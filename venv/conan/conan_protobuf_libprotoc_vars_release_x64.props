@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanprotobuf_libprotocRootFolder>C:/.conan/395940/1</Conanprotobuf_libprotocRootFolder>
+    <Conanprotobuf_libprotocBinaryDirectories>$(Conanprotobuf_libprotocRootFolder)/bin;</Conanprotobuf_libprotocBinaryDirectories>
+    <Conanprotobuf_libprotocCompilerFlags></Conanprotobuf_libprotocCompilerFlags>
+    <Conanprotobuf_libprotocLinkerFlags></Conanprotobuf_libprotocLinkerFlags>
+    <Conanprotobuf_libprotocPreprocessorDefinitions></Conanprotobuf_libprotocPreprocessorDefinitions>
+    <Conanprotobuf_libprotocIncludeDirectories>$(Conanprotobuf_libprotocRootFolder)/include;</Conanprotobuf_libprotocIncludeDirectories>
+    <Conanprotobuf_libprotocResourceDirectories></Conanprotobuf_libprotocResourceDirectories>
+    <Conanprotobuf_libprotocLibraryDirectories>$(Conanprotobuf_libprotocRootFolder)/lib;</Conanprotobuf_libprotocLibraryDirectories>
+    <Conanprotobuf_libprotocLibraries>libprotoc.lib;</Conanprotobuf_libprotocLibraries>
+    <Conanprotobuf_libprotocSystemLibs></Conanprotobuf_libprotocSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangoogleapis_google_spanner_v1_spanner_protoRootFolder>C:/.conan/99af4c/1</Conangoogleapis_google_spanner_v1_spanner_protoRootFolder>
+    <Conangoogleapis_google_spanner_v1_spanner_protoBinaryDirectories>$(Conangoogleapis_google_spanner_v1_spanner_protoRootFolder)/bin;</Conangoogleapis_google_spanner_v1_spanner_protoBinaryDirectories>
+    <Conangoogleapis_google_spanner_v1_spanner_protoCompilerFlags></Conangoogleapis_google_spanner_v1_spanner_protoCompilerFlags>
+    <Conangoogleapis_google_spanner_v1_spanner_protoLinkerFlags></Conangoogleapis_google_spanner_v1_spanner_protoLinkerFlags>
+    <Conangoogleapis_google_spanner_v1_spanner_protoPreprocessorDefinitions></Conangoogleapis_google_spanner_v1_spanner_protoPreprocessorDefinitions>
+    <Conangoogleapis_google_spanner_v1_spanner_protoIncludeDirectories>$(Conangoogleapis_google_spanner_v1_spanner_protoRootFolder)/include;</Conangoogleapis_google_spanner_v1_spanner_protoIncludeDirectories>
+    <Conangoogleapis_google_spanner_v1_spanner_protoResourceDirectories>$(Conangoogleapis_google_spanner_v1_spanner_protoRootFolder)/res;</Conangoogleapis_google_spanner_v1_spanner_protoResourceDirectories>
+    <Conangoogleapis_google_spanner_v1_spanner_protoLibraryDirectories>$(Conangoogleapis_google_spanner_v1_spanner_protoRootFolder)/lib;</Conangoogleapis_google_spanner_v1_spanner_protoLibraryDirectories>
+    <Conangoogleapis_google_spanner_v1_spanner_protoLibraries>google_spanner_v1_spanner_proto.lib;</Conangoogleapis_google_spanner_v1_spanner_protoLibraries>
+    <Conangoogleapis_google_spanner_v1_spanner_protoSystemLibs></Conangoogleapis_google_spanner_v1_spanner_protoSystemLibs>
+  </PropertyGroup>
+</Project>

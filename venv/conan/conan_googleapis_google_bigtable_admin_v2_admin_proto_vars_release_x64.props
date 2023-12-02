@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangoogleapis_google_bigtable_admin_v2_admin_protoRootFolder>C:/.conan/99af4c/1</Conangoogleapis_google_bigtable_admin_v2_admin_protoRootFolder>
+    <Conangoogleapis_google_bigtable_admin_v2_admin_protoBinaryDirectories>$(Conangoogleapis_google_bigtable_admin_v2_admin_protoRootFolder)/bin;</Conangoogleapis_google_bigtable_admin_v2_admin_protoBinaryDirectories>
+    <Conangoogleapis_google_bigtable_admin_v2_admin_protoCompilerFlags></Conangoogleapis_google_bigtable_admin_v2_admin_protoCompilerFlags>
+    <Conangoogleapis_google_bigtable_admin_v2_admin_protoLinkerFlags></Conangoogleapis_google_bigtable_admin_v2_admin_protoLinkerFlags>
+    <Conangoogleapis_google_bigtable_admin_v2_admin_protoPreprocessorDefinitions></Conangoogleapis_google_bigtable_admin_v2_admin_protoPreprocessorDefinitions>
+    <Conangoogleapis_google_bigtable_admin_v2_admin_protoIncludeDirectories>$(Conangoogleapis_google_bigtable_admin_v2_admin_protoRootFolder)/include;</Conangoogleapis_google_bigtable_admin_v2_admin_protoIncludeDirectories>
+    <Conangoogleapis_google_bigtable_admin_v2_admin_protoResourceDirectories>$(Conangoogleapis_google_bigtable_admin_v2_admin_protoRootFolder)/res;</Conangoogleapis_google_bigtable_admin_v2_admin_protoResourceDirectories>
+    <Conangoogleapis_google_bigtable_admin_v2_admin_protoLibraryDirectories>$(Conangoogleapis_google_bigtable_admin_v2_admin_protoRootFolder)/lib;</Conangoogleapis_google_bigtable_admin_v2_admin_protoLibraryDirectories>
+    <Conangoogleapis_google_bigtable_admin_v2_admin_protoLibraries>google_bigtable_admin_v2_admin_proto.lib;</Conangoogleapis_google_bigtable_admin_v2_admin_protoLibraries>
+    <Conangoogleapis_google_bigtable_admin_v2_admin_protoSystemLibs></Conangoogleapis_google_bigtable_admin_v2_admin_protoSystemLibs>
+  </PropertyGroup>
+</Project>

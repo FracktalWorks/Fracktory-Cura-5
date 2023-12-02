@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanmpdecimal_libmpdecimal__RootFolder>C:/.conan/05f268/1</Conanmpdecimal_libmpdecimal__RootFolder>
+    <Conanmpdecimal_libmpdecimal__BinaryDirectories>$(Conanmpdecimal_libmpdecimal__RootFolder)/bin;</Conanmpdecimal_libmpdecimal__BinaryDirectories>
+    <Conanmpdecimal_libmpdecimal__CompilerFlags></Conanmpdecimal_libmpdecimal__CompilerFlags>
+    <Conanmpdecimal_libmpdecimal__LinkerFlags></Conanmpdecimal_libmpdecimal__LinkerFlags>
+    <Conanmpdecimal_libmpdecimal__PreprocessorDefinitions></Conanmpdecimal_libmpdecimal__PreprocessorDefinitions>
+    <Conanmpdecimal_libmpdecimal__IncludeDirectories>$(Conanmpdecimal_libmpdecimal__RootFolder)/include;</Conanmpdecimal_libmpdecimal__IncludeDirectories>
+    <Conanmpdecimal_libmpdecimal__ResourceDirectories>$(Conanmpdecimal_libmpdecimal__RootFolder)/res;</Conanmpdecimal_libmpdecimal__ResourceDirectories>
+    <Conanmpdecimal_libmpdecimal__LibraryDirectories>$(Conanmpdecimal_libmpdecimal__RootFolder)/lib;</Conanmpdecimal_libmpdecimal__LibraryDirectories>
+    <Conanmpdecimal_libmpdecimal__Libraries>libmpdec++-2.5.0.lib;</Conanmpdecimal_libmpdecimal__Libraries>
+    <Conanmpdecimal_libmpdecimal__SystemLibs></Conanmpdecimal_libmpdecimal__SystemLibs>
+  </PropertyGroup>
+</Project>

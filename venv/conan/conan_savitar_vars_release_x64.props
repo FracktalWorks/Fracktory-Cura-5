@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <ConansavitarRootFolder>C:/.conan/487b40/1</ConansavitarRootFolder>
+    <ConansavitarBinaryDirectories>$(ConansavitarRootFolder)/bin;</ConansavitarBinaryDirectories>
+    <ConansavitarCompilerFlags></ConansavitarCompilerFlags>
+    <ConansavitarLinkerFlags></ConansavitarLinkerFlags>
+    <ConansavitarPreprocessorDefinitions></ConansavitarPreprocessorDefinitions>
+    <ConansavitarIncludeDirectories>$(ConansavitarRootFolder)/include;</ConansavitarIncludeDirectories>
+    <ConansavitarResourceDirectories></ConansavitarResourceDirectories>
+    <ConansavitarLibraryDirectories>$(ConansavitarRootFolder)/lib;</ConansavitarLibraryDirectories>
+    <ConansavitarLibraries>Savitar.lib;</ConansavitarLibraries>
+    <ConansavitarSystemLibs></ConansavitarSystemLibs>
+  </PropertyGroup>
+</Project>

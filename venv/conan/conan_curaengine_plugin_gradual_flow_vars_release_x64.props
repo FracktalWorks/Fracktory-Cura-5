@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conancuraengine_plugin_gradual_flowRootFolder>C:/.conan/c3c41b/1</Conancuraengine_plugin_gradual_flowRootFolder>
+    <Conancuraengine_plugin_gradual_flowBinaryDirectories>$(Conancuraengine_plugin_gradual_flowRootFolder)/bin;</Conancuraengine_plugin_gradual_flowBinaryDirectories>
+    <Conancuraengine_plugin_gradual_flowCompilerFlags></Conancuraengine_plugin_gradual_flowCompilerFlags>
+    <Conancuraengine_plugin_gradual_flowLinkerFlags></Conancuraengine_plugin_gradual_flowLinkerFlags>
+    <Conancuraengine_plugin_gradual_flowPreprocessorDefinitions></Conancuraengine_plugin_gradual_flowPreprocessorDefinitions>
+    <Conancuraengine_plugin_gradual_flowIncludeDirectories>$(Conancuraengine_plugin_gradual_flowRootFolder)/include;</Conancuraengine_plugin_gradual_flowIncludeDirectories>
+    <Conancuraengine_plugin_gradual_flowResourceDirectories>$(Conancuraengine_plugin_gradual_flowRootFolder)/res/plugins/CuraEngineGradualFlow;$(Conancuraengine_plugin_gradual_flowRootFolder)/res/bundled_packages;</Conancuraengine_plugin_gradual_flowResourceDirectories>
+    <Conancuraengine_plugin_gradual_flowLibraryDirectories>$(Conancuraengine_plugin_gradual_flowRootFolder)/lib;</Conancuraengine_plugin_gradual_flowLibraryDirectories>
+    <Conancuraengine_plugin_gradual_flowLibraries></Conancuraengine_plugin_gradual_flowLibraries>
+    <Conancuraengine_plugin_gradual_flowSystemLibs></Conancuraengine_plugin_gradual_flowSystemLibs>
+  </PropertyGroup>
+</Project>

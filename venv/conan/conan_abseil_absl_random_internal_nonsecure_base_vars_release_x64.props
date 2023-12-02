@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_nonsecure_baseRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_nonsecure_baseRootFolder>
+    <Conanabseil_absl_random_internal_nonsecure_baseBinaryDirectories>$(Conanabseil_absl_random_internal_nonsecure_baseRootFolder)/bin;</Conanabseil_absl_random_internal_nonsecure_baseBinaryDirectories>
+    <Conanabseil_absl_random_internal_nonsecure_baseCompilerFlags></Conanabseil_absl_random_internal_nonsecure_baseCompilerFlags>
+    <Conanabseil_absl_random_internal_nonsecure_baseLinkerFlags></Conanabseil_absl_random_internal_nonsecure_baseLinkerFlags>
+    <Conanabseil_absl_random_internal_nonsecure_basePreprocessorDefinitions></Conanabseil_absl_random_internal_nonsecure_basePreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_nonsecure_baseIncludeDirectories>$(Conanabseil_absl_random_internal_nonsecure_baseRootFolder)/include;</Conanabseil_absl_random_internal_nonsecure_baseIncludeDirectories>
+    <Conanabseil_absl_random_internal_nonsecure_baseResourceDirectories></Conanabseil_absl_random_internal_nonsecure_baseResourceDirectories>
+    <Conanabseil_absl_random_internal_nonsecure_baseLibraryDirectories>$(Conanabseil_absl_random_internal_nonsecure_baseRootFolder)/lib;</Conanabseil_absl_random_internal_nonsecure_baseLibraryDirectories>
+    <Conanabseil_absl_random_internal_nonsecure_baseLibraries></Conanabseil_absl_random_internal_nonsecure_baseLibraries>
+    <Conanabseil_absl_random_internal_nonsecure_baseSystemLibs></Conanabseil_absl_random_internal_nonsecure_baseSystemLibs>
+  </PropertyGroup>
+</Project>

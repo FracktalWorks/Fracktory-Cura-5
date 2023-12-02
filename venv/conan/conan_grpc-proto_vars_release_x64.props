@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangrpc-protoRootFolder>C:/.conan/a16ce2/1</Conangrpc-protoRootFolder>
+    <Conangrpc-protoBinaryDirectories>$(Conangrpc-protoRootFolder)/bin;</Conangrpc-protoBinaryDirectories>
+    <Conangrpc-protoCompilerFlags></Conangrpc-protoCompilerFlags>
+    <Conangrpc-protoLinkerFlags></Conangrpc-protoLinkerFlags>
+    <Conangrpc-protoPreprocessorDefinitions></Conangrpc-protoPreprocessorDefinitions>
+    <Conangrpc-protoIncludeDirectories>$(Conangrpc-protoRootFolder)/include;</Conangrpc-protoIncludeDirectories>
+    <Conangrpc-protoResourceDirectories>$(Conangrpc-protoRootFolder)/res;</Conangrpc-protoResourceDirectories>
+    <Conangrpc-protoLibraryDirectories>$(Conangrpc-protoRootFolder)/lib;</Conangrpc-protoLibraryDirectories>
+    <Conangrpc-protoLibraries>grpc_alts_handshaker_proto.lib;grpc_benchmark_service_proto.lib;grpc_binarylog_proto.lib;grpc_channelz_proto.lib;grpc_control_proto.lib;grpc_grpclb_load_balancer_proto.lib;grpc_grpclb_load_reporter_proto.lib;grpc_health_proto.lib;grpc_messages_proto.lib;grpc_reflection_proto.lib;grpc_reflection_proto_deprecated.lib;grpc_report_qps_scenario_service_proto.lib;grpc_rls_config_proto.lib;grpc_rls_proto.lib;grpc_service_config_proto.lib;grpc_stats_proto.lib;grpc_worker_service_proto.lib;</Conangrpc-protoLibraries>
+    <Conangrpc-protoSystemLibs></Conangrpc-protoSystemLibs>
+  </PropertyGroup>
+</Project>

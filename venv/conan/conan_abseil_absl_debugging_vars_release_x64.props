@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_debuggingRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_debuggingRootFolder>
+    <Conanabseil_absl_debuggingBinaryDirectories>$(Conanabseil_absl_debuggingRootFolder)/bin;</Conanabseil_absl_debuggingBinaryDirectories>
+    <Conanabseil_absl_debuggingCompilerFlags></Conanabseil_absl_debuggingCompilerFlags>
+    <Conanabseil_absl_debuggingLinkerFlags></Conanabseil_absl_debuggingLinkerFlags>
+    <Conanabseil_absl_debuggingPreprocessorDefinitions></Conanabseil_absl_debuggingPreprocessorDefinitions>
+    <Conanabseil_absl_debuggingIncludeDirectories>$(Conanabseil_absl_debuggingRootFolder)/include;</Conanabseil_absl_debuggingIncludeDirectories>
+    <Conanabseil_absl_debuggingResourceDirectories></Conanabseil_absl_debuggingResourceDirectories>
+    <Conanabseil_absl_debuggingLibraryDirectories>$(Conanabseil_absl_debuggingRootFolder)/lib;</Conanabseil_absl_debuggingLibraryDirectories>
+    <Conanabseil_absl_debuggingLibraries></Conanabseil_absl_debuggingLibraries>
+    <Conanabseil_absl_debuggingSystemLibs></Conanabseil_absl_debuggingSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conannest2dRootFolder>C:/.conan/e923d3/1</Conannest2dRootFolder>
+    <Conannest2dBinaryDirectories>$(Conannest2dRootFolder)/bin;</Conannest2dBinaryDirectories>
+    <Conannest2dCompilerFlags></Conannest2dCompilerFlags>
+    <Conannest2dLinkerFlags></Conannest2dLinkerFlags>
+    <Conannest2dPreprocessorDefinitions>LIBNEST2D_GEOMETRIES_clipper;LIBNEST2D_OPTIMIZERS_nlopt;LIBNEST2D_THREADING_std;</Conannest2dPreprocessorDefinitions>
+    <Conannest2dIncludeDirectories>$(Conannest2dRootFolder)/include;</Conannest2dIncludeDirectories>
+    <Conannest2dResourceDirectories></Conannest2dResourceDirectories>
+    <Conannest2dLibraryDirectories>$(Conannest2dRootFolder)/lib;</Conannest2dLibraryDirectories>
+    <Conannest2dLibraries>nest2d.lib;</Conannest2dLibraries>
+    <Conannest2dSystemLibs></Conannest2dSystemLibs>
+  </PropertyGroup>
+</Project>

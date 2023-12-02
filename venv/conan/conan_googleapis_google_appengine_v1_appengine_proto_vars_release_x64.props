@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangoogleapis_google_appengine_v1_appengine_protoRootFolder>C:/.conan/99af4c/1</Conangoogleapis_google_appengine_v1_appengine_protoRootFolder>
+    <Conangoogleapis_google_appengine_v1_appengine_protoBinaryDirectories>$(Conangoogleapis_google_appengine_v1_appengine_protoRootFolder)/bin;</Conangoogleapis_google_appengine_v1_appengine_protoBinaryDirectories>
+    <Conangoogleapis_google_appengine_v1_appengine_protoCompilerFlags></Conangoogleapis_google_appengine_v1_appengine_protoCompilerFlags>
+    <Conangoogleapis_google_appengine_v1_appengine_protoLinkerFlags></Conangoogleapis_google_appengine_v1_appengine_protoLinkerFlags>
+    <Conangoogleapis_google_appengine_v1_appengine_protoPreprocessorDefinitions></Conangoogleapis_google_appengine_v1_appengine_protoPreprocessorDefinitions>
+    <Conangoogleapis_google_appengine_v1_appengine_protoIncludeDirectories>$(Conangoogleapis_google_appengine_v1_appengine_protoRootFolder)/include;</Conangoogleapis_google_appengine_v1_appengine_protoIncludeDirectories>
+    <Conangoogleapis_google_appengine_v1_appengine_protoResourceDirectories>$(Conangoogleapis_google_appengine_v1_appengine_protoRootFolder)/res;</Conangoogleapis_google_appengine_v1_appengine_protoResourceDirectories>
+    <Conangoogleapis_google_appengine_v1_appengine_protoLibraryDirectories>$(Conangoogleapis_google_appengine_v1_appengine_protoRootFolder)/lib;</Conangoogleapis_google_appengine_v1_appengine_protoLibraryDirectories>
+    <Conangoogleapis_google_appengine_v1_appengine_protoLibraries>google_appengine_v1_appengine_proto.lib;</Conangoogleapis_google_appengine_v1_appengine_protoLibraries>
+    <Conangoogleapis_google_appengine_v1_appengine_protoSystemLibs></Conangoogleapis_google_appengine_v1_appengine_protoSystemLibs>
+  </PropertyGroup>
+</Project>

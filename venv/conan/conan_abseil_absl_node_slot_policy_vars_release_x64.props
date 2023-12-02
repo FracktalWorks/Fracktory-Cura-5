@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_node_slot_policyRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_node_slot_policyRootFolder>
+    <Conanabseil_absl_node_slot_policyBinaryDirectories>$(Conanabseil_absl_node_slot_policyRootFolder)/bin;</Conanabseil_absl_node_slot_policyBinaryDirectories>
+    <Conanabseil_absl_node_slot_policyCompilerFlags></Conanabseil_absl_node_slot_policyCompilerFlags>
+    <Conanabseil_absl_node_slot_policyLinkerFlags></Conanabseil_absl_node_slot_policyLinkerFlags>
+    <Conanabseil_absl_node_slot_policyPreprocessorDefinitions></Conanabseil_absl_node_slot_policyPreprocessorDefinitions>
+    <Conanabseil_absl_node_slot_policyIncludeDirectories>$(Conanabseil_absl_node_slot_policyRootFolder)/include;</Conanabseil_absl_node_slot_policyIncludeDirectories>
+    <Conanabseil_absl_node_slot_policyResourceDirectories></Conanabseil_absl_node_slot_policyResourceDirectories>
+    <Conanabseil_absl_node_slot_policyLibraryDirectories>$(Conanabseil_absl_node_slot_policyRootFolder)/lib;</Conanabseil_absl_node_slot_policyLibraryDirectories>
+    <Conanabseil_absl_node_slot_policyLibraries></Conanabseil_absl_node_slot_policyLibraries>
+    <Conanabseil_absl_node_slot_policySystemLibs></Conanabseil_absl_node_slot_policySystemLibs>
+  </PropertyGroup>
+</Project>

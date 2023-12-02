@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_leak_checkRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_leak_checkRootFolder>
+    <Conanabseil_absl_leak_checkBinaryDirectories>$(Conanabseil_absl_leak_checkRootFolder)/bin;</Conanabseil_absl_leak_checkBinaryDirectories>
+    <Conanabseil_absl_leak_checkCompilerFlags></Conanabseil_absl_leak_checkCompilerFlags>
+    <Conanabseil_absl_leak_checkLinkerFlags></Conanabseil_absl_leak_checkLinkerFlags>
+    <Conanabseil_absl_leak_checkPreprocessorDefinitions></Conanabseil_absl_leak_checkPreprocessorDefinitions>
+    <Conanabseil_absl_leak_checkIncludeDirectories>$(Conanabseil_absl_leak_checkRootFolder)/include;</Conanabseil_absl_leak_checkIncludeDirectories>
+    <Conanabseil_absl_leak_checkResourceDirectories></Conanabseil_absl_leak_checkResourceDirectories>
+    <Conanabseil_absl_leak_checkLibraryDirectories>$(Conanabseil_absl_leak_checkRootFolder)/lib;</Conanabseil_absl_leak_checkLibraryDirectories>
+    <Conanabseil_absl_leak_checkLibraries>absl_leak_check.lib;</Conanabseil_absl_leak_checkLibraries>
+    <Conanabseil_absl_leak_checkSystemLibs></Conanabseil_absl_leak_checkSystemLibs>
+  </PropertyGroup>
+</Project>

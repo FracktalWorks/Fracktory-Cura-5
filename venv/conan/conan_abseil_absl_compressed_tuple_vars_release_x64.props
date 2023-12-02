@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_compressed_tupleRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_compressed_tupleRootFolder>
+    <Conanabseil_absl_compressed_tupleBinaryDirectories>$(Conanabseil_absl_compressed_tupleRootFolder)/bin;</Conanabseil_absl_compressed_tupleBinaryDirectories>
+    <Conanabseil_absl_compressed_tupleCompilerFlags></Conanabseil_absl_compressed_tupleCompilerFlags>
+    <Conanabseil_absl_compressed_tupleLinkerFlags></Conanabseil_absl_compressed_tupleLinkerFlags>
+    <Conanabseil_absl_compressed_tuplePreprocessorDefinitions></Conanabseil_absl_compressed_tuplePreprocessorDefinitions>
+    <Conanabseil_absl_compressed_tupleIncludeDirectories>$(Conanabseil_absl_compressed_tupleRootFolder)/include;</Conanabseil_absl_compressed_tupleIncludeDirectories>
+    <Conanabseil_absl_compressed_tupleResourceDirectories></Conanabseil_absl_compressed_tupleResourceDirectories>
+    <Conanabseil_absl_compressed_tupleLibraryDirectories>$(Conanabseil_absl_compressed_tupleRootFolder)/lib;</Conanabseil_absl_compressed_tupleLibraryDirectories>
+    <Conanabseil_absl_compressed_tupleLibraries></Conanabseil_absl_compressed_tupleLibraries>
+    <Conanabseil_absl_compressed_tupleSystemLibs></Conanabseil_absl_compressed_tupleSystemLibs>
+  </PropertyGroup>
+</Project>

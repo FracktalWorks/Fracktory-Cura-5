@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_prefetchRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_prefetchRootFolder>
+    <Conanabseil_absl_prefetchBinaryDirectories>$(Conanabseil_absl_prefetchRootFolder)/bin;</Conanabseil_absl_prefetchBinaryDirectories>
+    <Conanabseil_absl_prefetchCompilerFlags></Conanabseil_absl_prefetchCompilerFlags>
+    <Conanabseil_absl_prefetchLinkerFlags></Conanabseil_absl_prefetchLinkerFlags>
+    <Conanabseil_absl_prefetchPreprocessorDefinitions></Conanabseil_absl_prefetchPreprocessorDefinitions>
+    <Conanabseil_absl_prefetchIncludeDirectories>$(Conanabseil_absl_prefetchRootFolder)/include;</Conanabseil_absl_prefetchIncludeDirectories>
+    <Conanabseil_absl_prefetchResourceDirectories></Conanabseil_absl_prefetchResourceDirectories>
+    <Conanabseil_absl_prefetchLibraryDirectories>$(Conanabseil_absl_prefetchRootFolder)/lib;</Conanabseil_absl_prefetchLibraryDirectories>
+    <Conanabseil_absl_prefetchLibraries></Conanabseil_absl_prefetchLibraries>
+    <Conanabseil_absl_prefetchSystemLibs></Conanabseil_absl_prefetchSystemLibs>
+  </PropertyGroup>
+</Project>

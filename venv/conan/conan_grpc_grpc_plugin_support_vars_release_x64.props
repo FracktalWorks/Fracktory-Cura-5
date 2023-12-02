@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conangrpc_grpc_plugin_supportRootFolder>C:/.conan/1ae3ce/1</Conangrpc_grpc_plugin_supportRootFolder>
+    <Conangrpc_grpc_plugin_supportBinaryDirectories>$(Conangrpc_grpc_plugin_supportRootFolder)/bin;</Conangrpc_grpc_plugin_supportBinaryDirectories>
+    <Conangrpc_grpc_plugin_supportCompilerFlags></Conangrpc_grpc_plugin_supportCompilerFlags>
+    <Conangrpc_grpc_plugin_supportLinkerFlags></Conangrpc_grpc_plugin_supportLinkerFlags>
+    <Conangrpc_grpc_plugin_supportPreprocessorDefinitions></Conangrpc_grpc_plugin_supportPreprocessorDefinitions>
+    <Conangrpc_grpc_plugin_supportIncludeDirectories>$(Conangrpc_grpc_plugin_supportRootFolder)/include;</Conangrpc_grpc_plugin_supportIncludeDirectories>
+    <Conangrpc_grpc_plugin_supportResourceDirectories></Conangrpc_grpc_plugin_supportResourceDirectories>
+    <Conangrpc_grpc_plugin_supportLibraryDirectories>$(Conangrpc_grpc_plugin_supportRootFolder)/lib;</Conangrpc_grpc_plugin_supportLibraryDirectories>
+    <Conangrpc_grpc_plugin_supportLibraries>grpc_plugin_support.lib;</Conangrpc_grpc_plugin_supportLibraries>
+    <Conangrpc_grpc_plugin_supportSystemLibs>crypt32.lib;ws2_32.lib;wsock32.lib;</Conangrpc_grpc_plugin_supportSystemLibs>
+  </PropertyGroup>
+</Project>

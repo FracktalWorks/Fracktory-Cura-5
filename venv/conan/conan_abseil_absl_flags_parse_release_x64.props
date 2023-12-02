@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_abseil_absl_config_props_imported)' != 'True'" Project="conan_abseil_absl_config.props"/>
+    <Import Condition="'$(conan_abseil_absl_core_headers_props_imported)' != 'True'" Project="conan_abseil_absl_core_headers.props"/>
+    <Import Condition="'$(conan_abseil_absl_flags_config_props_imported)' != 'True'" Project="conan_abseil_absl_flags_config.props"/>
+    <Import Condition="'$(conan_abseil_absl_flags_props_imported)' != 'True'" Project="conan_abseil_absl_flags.props"/>
+    <Import Condition="'$(conan_abseil_absl_flags_commandlineflag_props_imported)' != 'True'" Project="conan_abseil_absl_flags_commandlineflag.props"/>
+    <Import Condition="'$(conan_abseil_absl_flags_commandlineflag_internal_props_imported)' != 'True'" Project="conan_abseil_absl_flags_commandlineflag_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_flags_internal_props_imported)' != 'True'" Project="conan_abseil_absl_flags_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_flags_private_handle_accessor_props_imported)' != 'True'" Project="conan_abseil_absl_flags_private_handle_accessor.props"/>
+    <Import Condition="'$(conan_abseil_absl_flags_program_name_props_imported)' != 'True'" Project="conan_abseil_absl_flags_program_name.props"/>
+    <Import Condition="'$(conan_abseil_absl_flags_reflection_props_imported)' != 'True'" Project="conan_abseil_absl_flags_reflection.props"/>
+    <Import Condition="'$(conan_abseil_absl_flags_usage_props_imported)' != 'True'" Project="conan_abseil_absl_flags_usage.props"/>
+    <Import Condition="'$(conan_abseil_absl_strings_props_imported)' != 'True'" Project="conan_abseil_absl_strings.props"/>
+    <Import Condition="'$(conan_abseil_absl_synchronization_props_imported)' != 'True'" Project="conan_abseil_absl_synchronization.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_abseil_absl_flags_parse_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanabseil_absl_flags_parseBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_flags_parseIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_flags_parsePreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_flags_parseCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanabseil_absl_flags_parseLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanabseil_absl_flags_parseLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanabseil_absl_flags_parseSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanabseil_absl_flags_parseLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_flags_parseIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_flags_parseIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_flags_parsePreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_flags_parseCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

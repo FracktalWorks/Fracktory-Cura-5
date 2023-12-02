@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conancpython_pythonRootFolder>C:/.conan/9f89de/1</Conancpython_pythonRootFolder>
+    <Conancpython_pythonBinaryDirectories>$(Conancpython_pythonRootFolder)/bin;</Conancpython_pythonBinaryDirectories>
+    <Conancpython_pythonCompilerFlags></Conancpython_pythonCompilerFlags>
+    <Conancpython_pythonLinkerFlags></Conancpython_pythonLinkerFlags>
+    <Conancpython_pythonPreprocessorDefinitions>Py_ENABLE_SHARED;</Conancpython_pythonPreprocessorDefinitions>
+    <Conancpython_pythonIncludeDirectories>$(Conancpython_pythonRootFolder)/bin/include;</Conancpython_pythonIncludeDirectories>
+    <Conancpython_pythonResourceDirectories>$(Conancpython_pythonRootFolder)/res;</Conancpython_pythonResourceDirectories>
+    <Conancpython_pythonLibraryDirectories></Conancpython_pythonLibraryDirectories>
+    <Conancpython_pythonLibraries></Conancpython_pythonLibraries>
+    <Conancpython_pythonSystemLibs></Conancpython_pythonSystemLibs>
+  </PropertyGroup>
+</Project>

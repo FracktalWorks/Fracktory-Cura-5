@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_abseil_absl_base_props_imported)' != 'True'" Project="conan_abseil_absl_base.props"/>
+    <Import Condition="'$(conan_abseil_absl_config_props_imported)' != 'True'" Project="conan_abseil_absl_config.props"/>
+    <Import Condition="'$(conan_abseil_absl_core_headers_props_imported)' != 'True'" Project="conan_abseil_absl_core_headers.props"/>
+    <Import Condition="'$(conan_abseil_absl_endian_props_imported)' != 'True'" Project="conan_abseil_absl_endian.props"/>
+    <Import Condition="'$(conan_abseil_absl_random_internal_randen_props_imported)' != 'True'" Project="conan_abseil_absl_random_internal_randen.props"/>
+    <Import Condition="'$(conan_abseil_absl_random_internal_seed_material_props_imported)' != 'True'" Project="conan_abseil_absl_random_internal_seed_material.props"/>
+    <Import Condition="'$(conan_abseil_absl_random_internal_traits_props_imported)' != 'True'" Project="conan_abseil_absl_random_internal_traits.props"/>
+    <Import Condition="'$(conan_abseil_absl_random_seed_gen_exception_props_imported)' != 'True'" Project="conan_abseil_absl_random_seed_gen_exception.props"/>
+    <Import Condition="'$(conan_abseil_absl_raw_logging_internal_props_imported)' != 'True'" Project="conan_abseil_absl_raw_logging_internal.props"/>
+    <Import Condition="'$(conan_abseil_absl_span_props_imported)' != 'True'" Project="conan_abseil_absl_span.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_abseil_absl_random_internal_pool_urbg_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanabseil_absl_random_internal_pool_urbgBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_random_internal_pool_urbgIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_random_internal_pool_urbgPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_random_internal_pool_urbgCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanabseil_absl_random_internal_pool_urbgLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanabseil_absl_random_internal_pool_urbgLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanabseil_absl_random_internal_pool_urbgSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanabseil_absl_random_internal_pool_urbgLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_random_internal_pool_urbgIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanabseil_absl_random_internal_pool_urbgIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanabseil_absl_random_internal_pool_urbgPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanabseil_absl_random_internal_pool_urbgCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

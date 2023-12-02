@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_fastmathRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_fastmathRootFolder>
+    <Conanabseil_absl_random_internal_fastmathBinaryDirectories>$(Conanabseil_absl_random_internal_fastmathRootFolder)/bin;</Conanabseil_absl_random_internal_fastmathBinaryDirectories>
+    <Conanabseil_absl_random_internal_fastmathCompilerFlags></Conanabseil_absl_random_internal_fastmathCompilerFlags>
+    <Conanabseil_absl_random_internal_fastmathLinkerFlags></Conanabseil_absl_random_internal_fastmathLinkerFlags>
+    <Conanabseil_absl_random_internal_fastmathPreprocessorDefinitions></Conanabseil_absl_random_internal_fastmathPreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_fastmathIncludeDirectories>$(Conanabseil_absl_random_internal_fastmathRootFolder)/include;</Conanabseil_absl_random_internal_fastmathIncludeDirectories>
+    <Conanabseil_absl_random_internal_fastmathResourceDirectories></Conanabseil_absl_random_internal_fastmathResourceDirectories>
+    <Conanabseil_absl_random_internal_fastmathLibraryDirectories>$(Conanabseil_absl_random_internal_fastmathRootFolder)/lib;</Conanabseil_absl_random_internal_fastmathLibraryDirectories>
+    <Conanabseil_absl_random_internal_fastmathLibraries></Conanabseil_absl_random_internal_fastmathLibraries>
+    <Conanabseil_absl_random_internal_fastmathSystemLibs></Conanabseil_absl_random_internal_fastmathSystemLibs>
+  </PropertyGroup>
+</Project>

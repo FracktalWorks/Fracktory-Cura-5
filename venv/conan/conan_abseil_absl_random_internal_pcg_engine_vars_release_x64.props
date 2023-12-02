@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_random_internal_pcg_engineRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_random_internal_pcg_engineRootFolder>
+    <Conanabseil_absl_random_internal_pcg_engineBinaryDirectories>$(Conanabseil_absl_random_internal_pcg_engineRootFolder)/bin;</Conanabseil_absl_random_internal_pcg_engineBinaryDirectories>
+    <Conanabseil_absl_random_internal_pcg_engineCompilerFlags></Conanabseil_absl_random_internal_pcg_engineCompilerFlags>
+    <Conanabseil_absl_random_internal_pcg_engineLinkerFlags></Conanabseil_absl_random_internal_pcg_engineLinkerFlags>
+    <Conanabseil_absl_random_internal_pcg_enginePreprocessorDefinitions></Conanabseil_absl_random_internal_pcg_enginePreprocessorDefinitions>
+    <Conanabseil_absl_random_internal_pcg_engineIncludeDirectories>$(Conanabseil_absl_random_internal_pcg_engineRootFolder)/include;</Conanabseil_absl_random_internal_pcg_engineIncludeDirectories>
+    <Conanabseil_absl_random_internal_pcg_engineResourceDirectories></Conanabseil_absl_random_internal_pcg_engineResourceDirectories>
+    <Conanabseil_absl_random_internal_pcg_engineLibraryDirectories>$(Conanabseil_absl_random_internal_pcg_engineRootFolder)/lib;</Conanabseil_absl_random_internal_pcg_engineLibraryDirectories>
+    <Conanabseil_absl_random_internal_pcg_engineLibraries></Conanabseil_absl_random_internal_pcg_engineLibraries>
+    <Conanabseil_absl_random_internal_pcg_engineSystemLibs></Conanabseil_absl_random_internal_pcg_engineSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_mpdecimal_libmpdecimal_props_imported)' != 'True'" Project="conan_mpdecimal_libmpdecimal.props"/>
+		<Import Condition="'$(conan_mpdecimal_libmpdecimal___props_imported)' != 'True'" Project="conan_mpdecimal_libmpdecimal__.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_mpdecimal_props_imported>True</conan_mpdecimal_props_imported>
+	</PropertyGroup>
+</Project>

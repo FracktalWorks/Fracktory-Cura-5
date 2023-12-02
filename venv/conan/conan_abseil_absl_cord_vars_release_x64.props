@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_cordRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_cordRootFolder>
+    <Conanabseil_absl_cordBinaryDirectories>$(Conanabseil_absl_cordRootFolder)/bin;</Conanabseil_absl_cordBinaryDirectories>
+    <Conanabseil_absl_cordCompilerFlags></Conanabseil_absl_cordCompilerFlags>
+    <Conanabseil_absl_cordLinkerFlags></Conanabseil_absl_cordLinkerFlags>
+    <Conanabseil_absl_cordPreprocessorDefinitions></Conanabseil_absl_cordPreprocessorDefinitions>
+    <Conanabseil_absl_cordIncludeDirectories>$(Conanabseil_absl_cordRootFolder)/include;</Conanabseil_absl_cordIncludeDirectories>
+    <Conanabseil_absl_cordResourceDirectories></Conanabseil_absl_cordResourceDirectories>
+    <Conanabseil_absl_cordLibraryDirectories>$(Conanabseil_absl_cordRootFolder)/lib;</Conanabseil_absl_cordLibraryDirectories>
+    <Conanabseil_absl_cordLibraries>absl_cord.lib;</Conanabseil_absl_cordLibraries>
+    <Conanabseil_absl_cordSystemLibs></Conanabseil_absl_cordSystemLibs>
+  </PropertyGroup>
+</Project>

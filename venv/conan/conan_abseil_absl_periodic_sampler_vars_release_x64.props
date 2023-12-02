@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanabseil_absl_periodic_samplerRootFolder>C:/.conan/c74f12/1</Conanabseil_absl_periodic_samplerRootFolder>
+    <Conanabseil_absl_periodic_samplerBinaryDirectories>$(Conanabseil_absl_periodic_samplerRootFolder)/bin;</Conanabseil_absl_periodic_samplerBinaryDirectories>
+    <Conanabseil_absl_periodic_samplerCompilerFlags></Conanabseil_absl_periodic_samplerCompilerFlags>
+    <Conanabseil_absl_periodic_samplerLinkerFlags></Conanabseil_absl_periodic_samplerLinkerFlags>
+    <Conanabseil_absl_periodic_samplerPreprocessorDefinitions></Conanabseil_absl_periodic_samplerPreprocessorDefinitions>
+    <Conanabseil_absl_periodic_samplerIncludeDirectories>$(Conanabseil_absl_periodic_samplerRootFolder)/include;</Conanabseil_absl_periodic_samplerIncludeDirectories>
+    <Conanabseil_absl_periodic_samplerResourceDirectories></Conanabseil_absl_periodic_samplerResourceDirectories>
+    <Conanabseil_absl_periodic_samplerLibraryDirectories>$(Conanabseil_absl_periodic_samplerRootFolder)/lib;</Conanabseil_absl_periodic_samplerLibraryDirectories>
+    <Conanabseil_absl_periodic_samplerLibraries>absl_periodic_sampler.lib;</Conanabseil_absl_periodic_samplerLibraries>
+    <Conanabseil_absl_periodic_samplerSystemLibs></Conanabseil_absl_periodic_samplerSystemLibs>
+  </PropertyGroup>
+</Project>

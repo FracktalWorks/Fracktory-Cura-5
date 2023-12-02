@@ -1,0 +1,31 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="pytest in TestCuraStackBuilder.py"  type="tests" factoryName="py.test" nameIsGenerated="true">
+    <module name="Cura" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="PYTHONUNBUFFERED" value="1" />
+      <env name="PYTHONPATH" value="$PROJECT_DIR$\venv\Lib\site-packages;C:\.conan\d7d5bd\1\site-packages;C:\.conan\d7d5bd\1\plugins;C:\.conan\253de7\1\lib;C:\.conan\2b581e\1\lib;C:\.conan\30b2ae\1\lib" />
+      <env name="PATH" value="C:\.conan\b4e7d5\1\bin;C:\.conan\c3c41b\1\bin;C:\.conan\9f89de\1\bin;C:\.conan\395940\1\bin;C:\.conan\1ae3ce\1\bin;C:\.conan\8cbe11\1\bin;C:\.conan\35c8b6\1\bin;C:\.conan\ca9f7a\1\bin;C:\.conan\487b40\1\bin;C:\.conan\e923d3\1\bin;C:\.conan\4e1a74\1\bin;C:\.conan\c42cac\1\bin;C:\.conan\701702\1\bin;C:\.conan\b817d0\1\bin;C:\.conan\5f4b5b\1\bin;C:\.conan\3b712d\1\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\ninja-win;C:\Users\Vijay\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Vijay\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.2\bin;;C:\Users\Vijay\AppData\Local\GitHubDesktop\bin;C:\Users\Vijay\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Vijay\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;;windows\arduino\amd64;windows\arduino\CP210x_6.7.4;windows\arduino\FTDI USB Drivers\amd64" />
+      <env name="GRPC_DEFAULT_SSL_ROOTS_FILE_PATH" value="C:\.conan\1ae3ce\1\res\grpc\roots.pem" />
+      <env name="TK_LIBRARY" value="C:/.conan/701702/1/lib/tk8.6" />
+      <env name="TCL_ROOT" value="C:/.conan/701702/1" />
+      <env name="TCL_LIBRARY" value="C:\.conan\3b712d\1\lib\tcl8.6" />
+      <env name="TCLSH" value="C:\.conan\3b712d\1\bin\tclsh86tsx.exe" />
+      <env name="QML2_IMPORT_PATH" value="C:\Users\Vijay\Documents\GitHub\Fracktory-Cura\venv\Lib\site-packages\PyQt6\Qt6\qml" />
+      <env name="QT_PLUGIN_PATH" value="C:\Users\Vijay\Documents\GitHub\Fracktory-Cura\venv\Lib\site-packages\PyQt6\Qt6\plugins" />
+    </envs>
+    <option name="SDK_HOME" value="$PROJECT_DIR$\venv\Scripts\python.exe" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+    <option name="_new_keywords" value="&quot;&quot;" />
+    <option name="_new_parameters" value="&quot;&quot;" />
+    <option name="_new_additionalArguments" value="&quot;&quot;" />
+    <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Settings/TestCuraStackBuilder.py&quot;" />
+    <option name="_new_targetType" value="&quot;PATH&quot;" />
+    <method v="2" />
+  </configuration>
+</component>
