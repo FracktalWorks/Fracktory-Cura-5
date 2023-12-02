@@ -144,7 +144,8 @@ Following programs need to be installed for running from source on Windows:
 ### Python 3.10.4 or higher ( Lesser than 3.11)
 1. **Download Python Installer:**
    - Visit the official Python downloasd page at  [https://www.python.org/downloads/](https://www.python.org/downloads/).
-   - Scroll down to find the latest Python 3.10.4 (or higher) release for Windows.
+   - Scroll down to find the latest Python 3.10.4 (or higher) release for Windows. Link is https://www.python.org/downloads/release/python-31011/ for 64-bit, you may directly download from       
+      https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
    - Click on the "Download Python 3.10.4" (or the latest version) button to download the installer.
 
 2. **Run the Installer:**
@@ -285,9 +286,20 @@ Following programs need to be installed for running from source on Windows:
      conan --version
      ```
 
-
-
 ## Installation
 - After cloning Cura in step 2. of the Cura Documentation, Clone Fraktory/Cura Installation
 - Follow step 3 onwards at https://github.com/Ultimaker/Cura/wiki/Running-Cura-from-Source
+
+
+If you face issue to run below command
+     ````
+      .\venv\Scripts\activate.ps1
+     ````
+    Error is "cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170"
+     Open power shell in administrator and run below cmd.
+     ````
+     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+     ````
+
+     Then Type Y and hit [Enter]. After this you should be able to activate venv.     
 
