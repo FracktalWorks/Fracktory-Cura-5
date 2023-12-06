@@ -141,7 +141,7 @@ Following programs need to be installed for running from source on Windows:
 6. **Start Installation:**
    - Click the "Install" button to begin the installation.
 
-### Python 3.10.4 or higher
+### Python 3.10.4 or higher ( Lesser than 3.11)
 1. **Download Python Installer:**
    - Visit the official Python downloasd page at  [https://www.python.org/downloads/](https://www.python.org/downloads/).
    - Scroll down to find the latest Python 3.10.4 (or higher) release for Windows.
@@ -252,14 +252,14 @@ Following programs need to be installed for running from source on Windows:
      ```
      You should see the installed Ninja version (1.10 or higher) displayed in the output.
 
-### Conan >=1.60.2 <2.0.0
+### Conan 1.60.2 
 1. **Open Windows PowerShell:**
    - Open a Windows PowerShell window by searching for "PowerShell" in the Start menu.
 
 2. **Install Conan via pip:**
    - You can use Python's package manager, `pip`, to install Conan with a specific version range. Run the following command to install Conan >=1.60.2 and <2.0.0:
      ```bash
-     pip install "conan>=1.60.2,<2.0.0"
+     pip install conan==1.60.2
      ```
 
 3. **Verify Conan Installation:**
